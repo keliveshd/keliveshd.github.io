@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-24T12:13:51.000Z</updated>
+  <updated>2016-05-24T12:15:54.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -15,12 +15,11 @@
     <link href="http://yoursite.com//blog/2016/05/iTerm-2-Oh-My-Zsh.html"/>
     <id>http://yoursite.com//blog/2016/05/iTerm-2-Oh-My-Zsh.html</id>
     <published>2016-05-24T12:01:55.000Z</published>
-    <updated>2016-05-24T12:13:51.000Z</updated>
+    <updated>2016-05-24T12:15:54.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;转自&lt;/strong&gt;&lt;a href=&quot;http://www.jianshu.com/p/7de00c73a2bb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/7de00c73a2bb&lt;/a&gt; 作者:SuperDanny&lt;/p&gt;
 &lt;p&gt;一年前，在搞终端的时候偶然一次机会，让我看到了各种强大的DIY界面，这让我很想去自己搞一个。于是在网上不断的寻找资源，也请教了大多数朋友。最终以失败告终。最近，本人又突然想起当时这件事，于是，决定边做笔记，边尝试当初失败的过程。经过一个晚上的时间，终于DIY出我梦寐以求的效果。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;先放上最终DIY效果图：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/645592-08177ac961155bb7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240/format/jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;先放上最终DIY效果图：&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;media/645592-08177ac961155bb7.png.jpeg&quot; alt=&quot;645592-08177ac961155bb7.png&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;下面，我将分步骤讲解我是怎么一步一步完成DIY过程&quot;&gt;&lt;a href=&quot;#下面，我将分步骤讲解我是怎么一步一步完成DIY过程&quot; class=&quot;headerlink&quot; title=&quot;下面，我将分步骤讲解我是怎么一步一步完成DIY过程&quot;&gt;&lt;/a&gt;下面，我将分步骤讲解我是怎么一步一步完成DIY过程&lt;/h3&gt;&lt;h3 id=&quot;1-首先下载-iTerm-2&quot;&gt;&lt;a href=&quot;#1-首先下载-iTerm-2&quot; class=&quot;headerlink&quot; title=&quot;1. 首先下载 iTerm 2&quot;&gt;&lt;/a&gt;1. 首先下载 &lt;a href=&quot;http://www.iterm2.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;iTerm 2&lt;/a&gt;&lt;/h3&gt;&lt;h3 id=&quot;2-打开iTerm-2&quot;&gt;&lt;a href=&quot;#2-打开iTerm-2&quot; class=&quot;headerlink&quot; title=&quot;2. 打开iTerm 2&quot;&gt;&lt;/a&gt;2. 打开iTerm 2&lt;/h3&gt;&lt;h3 id=&quot;3-输入下面指令安装oh-my-zsh&quot;&gt;&lt;a href=&quot;#3-输入下面指令安装oh-my-zsh&quot; class=&quot;headerlink&quot; title=&quot;3. 输入下面指令安装oh-my-zsh&quot;&gt;&lt;/a&gt;3. 输入下面指令安装&lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;oh-my-zsh&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&quot;4-接下来安装Powerline&quot;&gt;&lt;a href=&quot;#4-接下来安装Powerline&quot; class=&quot;headerlink&quot; title=&quot;4. 接下来安装Powerline&quot;&gt;&lt;/a&gt;4. 接下来安装&lt;a href=&quot;http://powerline.readthedocs.org/en/latest/installation.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Powerline&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在官网有教程，我们只需要执行官网第一条安装指令就行&lt;/p&gt;
 &lt;p&gt;如果你的终端能够正常执行pip指令，那么直接执行下面的指令可以完成安装&lt;/p&gt;
