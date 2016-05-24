@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Evilek&#39;s-Blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-05-24T05:52:55.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com//blog/2016/05/hello-world.html"/>
+    <id>http://yoursite.com//blog/2016/05/hello-world.html</id>
+    <published>2016-05-24T05:52:55.000Z</published>
+    <updated>2016-05-24T05:52:55.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mac OS X 用终端破解附近 Wifi 密码</title>
+    <link href="http://yoursite.com//blog/2016/03/Mac-OS-X-%E7%94%A8%E7%BB%88%E7%AB%AF%E7%A0%B4%E8%A7%A3%E9%99%84%E8%BF%91-Wifi-%E5%AF%86%E7%A0%81-1.html"/>
+    <id>http://yoursite.com//blog/2016/03/Mac-OS-X-用终端破解附近-Wifi-密码-1.html</id>
+    <published>2016-03-06T14:40:58.000Z</published>
+    <updated>2016-05-24T05:52:55.000Z</updated>
+    
+    <content type="html">&lt;p&gt;首先需要确保电脑装有 Xcode 和 MacPorts。Xcode 可以直接从 App Store 免费下载，MacPorts 的下载地址如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://distfiles.macports.org/MacPorts/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://distfiles.macports.org/MacPorts/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MacPorts 前称 DarwinPorts，是一个软件包管理系统，用来简化 Mac OS X 系统上软件的安装。它是一个用来简化自由软件/开放源代码软件的安装的自由/开放源代码项目，与Fink和BSD类ports套件的目标和功能类似。它可以让用户在终端中简单的输入 port install 软件包名称来安装软件包，软件的下载、编译、安装以及它依赖的所有其他软件包的安装都会自动完成。&lt;/p&gt;
+&lt;p&gt;我下载的是「MacPorts-2.2.1-10.9-Mavericks.pkg」这个版本。&lt;/p&gt;
+&lt;p&gt;安装好 Macport 后，则开始安装Aircrack，打开终端输入命令：&lt;/p&gt;
+&lt;figure class=&quot;highlight elm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;port&lt;/span&gt; install aircrack-ng&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;等待一段时间安装，然后使用mac系统下自带的 airport 进行附近 wifi 信号的监测。&lt;/p&gt;
+&lt;p&gt;首先我们将 airport 命令引入到用户命令里，在终端输入：&lt;/p&gt;
+&lt;figure class=&quot;highlight gradle&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo ln -s &lt;span class=&quot;regexp&quot;&gt;/System/&lt;/span&gt;Library&lt;span class=&quot;regexp&quot;&gt;/PrivateFrameworks/&lt;/span&gt;Apple80211.framework&lt;span class=&quot;regexp&quot;&gt;/Versions/&lt;/span&gt;Current&lt;span class=&quot;regexp&quot;&gt;/Resources/&lt;/span&gt;airport &lt;span class=&quot;regexp&quot;&gt;/usr/&lt;/span&gt;sbin&lt;span class=&quot;regexp&quot;&gt;/airport&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;el capitan 后只能用&lt;br&gt;&lt;figure class=&quot;highlight elixir&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;export PATH=&lt;span class=&quot;variable&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;:/System/Library/PrivateFrameworks/Apple80211&lt;/span&gt;.framework/Versions/Current/Resources/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404131-600x296.png&quot; alt=&quot;201404131&quot;&gt;&lt;/p&gt;
+&lt;p&gt;SSID 是 wifi名称，RSSI 是信号强度，CHANNEL 是信道。&lt;/p&gt;
+&lt;p&gt;接着挑选一个信号强的信道进行监听抓包（比如信道1），在终端输入：&lt;br&gt;&lt;figure class=&quot;highlight elm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title&quot;&gt;sudo&lt;/span&gt; air&lt;span class=&quot;keyword&quot;&gt;port&lt;/span&gt; en1 sniff  1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;这时，会提示输入管理员密码，输入时密码是不会显示出来，输入完敲回车就开始监听抓包了。命令中的 en1 是自己电脑的网卡地址，有的电脑可能是 en0，根据自己的实际情况进行输入，查看电脑网卡地址的地方如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://chaishiwei.com/blog/wp-content/uploads/2014/04/QQ20140413-1-600x415.jpg&quot; alt=&quot;QQ20140413-1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;大概等待2-5分钟就可以按 command + c 组合键退出查看含有抓包的cap文件了，文件所在地址是/tmp，可以使用Finder的前往文件夹功能进入：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://chaishiwei.com/blog/wp-content/uploads/2014/04/QQ20140413-2.jpg&quot; alt=&quot;QQ20140413-2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;可以将cap文件移到我们想保存的地方，也可以不移走（重启后就没有了）。&lt;/p&gt;
+&lt;p&gt;接下来就进入关键的破解wifi密码的过程了，先在桌面建一个文件夹，取名「wifi」，将字典和cap文件都放到这个文件夹内（假设字典是01.txt，cap文件名是01.cap，在终端输入：&lt;/p&gt;
+&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;cd&lt;/span&gt; ~/Desktop/wifi&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;aircrack-ng -w 01.txt 01.&lt;span class=&quot;keyword&quot;&gt;cap&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404132-600x464.png&quot; alt=&quot;201404132&quot;&gt;&lt;/p&gt;
+&lt;p&gt;就可以看到cap文件内的抓包情况，Encryption中（0 handshake）是抓包失败，（1 handshake）则是抓包成功。图中看到第11行抓包成功，则在「Index number of target network ?」这里输入11后敲回车：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404133.png&quot; alt=&quot;201404133&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如果cap文件内全是（0 handshake），就按 command + c 组合键退出。重新回到「sudo airport en1 sniff 1」这步进行监听抓包。抓包成功率受到 wifi 信号强弱、电脑与路由器距离远近、路由器是否正处在收发数据状态的影响。总之多试几次、监听时间适当延长些，可以大大提高成功率。&lt;/p&gt;
+&lt;p&gt;进入到破解过程界面，如图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404134.png&quot; alt=&quot;201404134&quot;&gt;&lt;/p&gt;
+&lt;p&gt;接下来等待破解结果就行了，中断破解过程可以直接按 command + c 组合键退出。破解过程所需时间长短受电脑硬件配置、字典体积大小的影响。如果01.txt字典破解失败，则可以换其它字典进行破解，直到破解成功。&lt;/p&gt;
+&lt;p&gt;使用一个好的字典是很重要的，一个9位的纯数字字典大概1G多，结果经过几个小时的破解，如果密码是987654321就很令人郁闷了，所以最好准备几个常用的wifi密码字典，可以大大提高成功率和节省时间。常用字典可以直接百度Google搜索下载。&lt;/p&gt;
+&lt;p&gt;我在测试这个暴力破解方法时并没成功过，估计是附近的wifi密码都太冷门，导致我准备的几个字典都没对应上。如果破解成功则会如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://chaishiwei.com/blog/wp-content/uploads/2014/04/QQ20140413-12-600x345.jpg&quot; alt=&quot;QQ20140413-12&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;首先需要确保电脑装有 Xcode 和 MacPorts。Xcode 可以直接从 App Store 免费下载，MacPorts 的下载地址如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://distfiles.macports.org/MacPorts/&quot; target
+    
+    </summary>
+    
+      <category term="Hack" scheme="http://yoursite.com/categories/Hack/"/>
+    
+    
+      <category term="Mac" scheme="http://yoursite.com/tags/Mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo备份与搭建</title>
+    <link href="http://yoursite.com//blog/2016/03/HexoBackup.html"/>
+    <id>http://yoursite.com//blog/2016/03/HexoBackup.html</id>
+    <published>2016-03-06T02:09:53.000Z</published>
+    <updated>2016-05-24T05:52:55.000Z</updated>
+    
+    <content type="html">&lt;p&gt;#&lt;a href=&quot;http://www.ezlippi.com/blog/2016/02/jekyll-to-hexo.html#more&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo搭建&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;mkdir&lt;/span&gt; hexo  #创建一个文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;cd&lt;/span&gt; hexo&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm install -&lt;span class=&quot;keyword&quot;&gt;g&lt;/span&gt; hexo-&lt;span class=&quot;keyword&quot;&gt;cli&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo --&lt;span class=&quot;keyword&quot;&gt;save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;部署Hexo：在Git shell 中输入&lt;br&gt;&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;hexo&lt;/span&gt; init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;安装Hexo 插件：自动生成sitemap,Rss，部署到git等，建议安装&lt;br&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-generator-&lt;span class=&quot;keyword&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-generator-&lt;span class=&quot;keyword&quot;&gt;archive&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-generator-&lt;span class=&quot;keyword&quot;&gt;category&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-generator-tag &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-&lt;span class=&quot;keyword&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-deployer-git &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-deployer-heroku &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-deployer-rsync &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-deployer-openshift &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-renderer-marked@&lt;span class=&quot;number&quot;&gt;0.2&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-renderer-stylus@&lt;span class=&quot;number&quot;&gt;0.2&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-generator-feed@&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-generator-sitemap@&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Git获取SSHKey&quot;&gt;&lt;a href=&quot;#Git获取SSHKey&quot; class=&quot;headerlink&quot; title=&quot;Git获取SSHKey&quot;&gt;&lt;/a&gt;Git获取SSHKey&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;打开 Git Bash.&lt;/li&gt;
+&lt;li&gt;Paste the text below, substituting in your GitHub email address.&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ssh-keygen -t rsa -b 4096 -C &lt;span class=&quot;string&quot;&gt;&quot;your_email@example.com&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;or&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ssh-keygen -t rsa -C &lt;span class=&quot;string&quot;&gt;&quot;your_email@youremail.com&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;3.回车3次&lt;/p&gt;
+&lt;p&gt;4.在Git Bash 输入&lt;br&gt;&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ssh -T git@github&lt;span class=&quot;selector-class&quot;&gt;.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ssh -T git@git&lt;span class=&quot;selector-class&quot;&gt;.coding&lt;/span&gt;&lt;span class=&quot;selector-class&quot;&gt;.net&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;测试是否生效&lt;/p&gt;
+&lt;p&gt;5.如下提示说明成功&lt;br&gt;&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Hi username! &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;You&#39;ve successfully authenticated, &lt;span class=&quot;keyword&quot;&gt;but&lt;/span&gt; GitHub &lt;span class=&quot;keyword&quot;&gt;does&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;not&lt;/span&gt; provide shell access.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Git-backup&quot;&gt;&lt;a href=&quot;#Git-backup&quot; class=&quot;headerlink&quot; title=&quot;Git-backup&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/coneycode/hexo-git-backup&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git-backup&lt;/a&gt;&lt;/h2&gt;&lt;h2 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h2&gt;&lt;p&gt;if version is 3.x.x, you should install as follow:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-git-backup --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Update&quot;&gt;&lt;a href=&quot;#Update&quot; class=&quot;headerlink&quot; title=&quot;Update&quot;&gt;&lt;/a&gt;Update&lt;/h2&gt;&lt;p&gt;if you install with –save, you must remove firstly when you update it.&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm remove hexo-git-backup&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-git-backup --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Configure&quot;&gt;&lt;a href=&quot;#Configure&quot; class=&quot;headerlink&quot; title=&quot;Configure&quot;&gt;&lt;/a&gt;Configure&lt;/h2&gt;&lt;p&gt;You should configure this plugin in &lt;code&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
+&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;backup:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    type:&lt;/span&gt; git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    repository:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;       github:&lt;/span&gt; git@github.com:xxx/xxx.git,branchName&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;       gitcafe:&lt;/span&gt; git@github.com:xxx/xxx.git,branchName&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Using&quot;&gt;&lt;a href=&quot;#Using&quot; class=&quot;headerlink&quot; title=&quot;Using&quot;&gt;&lt;/a&gt;Using&lt;/h2&gt;&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;hexo&lt;/span&gt; backup&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;or&lt;br&gt;&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;hexo&lt;/span&gt; b&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Options&quot;&gt;&lt;a href=&quot;#Options&quot; class=&quot;headerlink&quot; title=&quot;Options&quot;&gt;&lt;/a&gt;Options&lt;/h2&gt;&lt;p&gt;if you want to back up with your theme,just add &lt;code&gt;theme: your theme name,your theme name&lt;/code&gt; in &lt;code&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
+&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;backup:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    type:&lt;/span&gt; git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    theme:&lt;/span&gt; coney,landscape,xxx&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    repository:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;       github:&lt;/span&gt; git@github.com:xxx/xxx.git,branchName&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;       gitcafe:&lt;/span&gt; git@github.com:xxx/xxx.git,branchName&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Attention: if you do as above, the dir &lt;code&gt;themes/coney/.git&lt;/code&gt;will be removed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if you want DIY commit message, just add ‘message: update xxx’.&lt;br&gt;&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;backup:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    type:&lt;/span&gt; git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    message:&lt;/span&gt; update xxx&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    repository:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;       github:&lt;/span&gt; git@github.com:xxx/xxx.git,branchName&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;       gitcafe:&lt;/span&gt; git@github.com:xxx/xxx.git,branchName&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Now you can backup all the blog!&lt;/p&gt;
+&lt;h2 id=&quot;Problems&quot;&gt;&lt;a href=&quot;#Problems&quot; class=&quot;headerlink&quot; title=&quot;Problems&quot;&gt;&lt;/a&gt;Problems&lt;/h2&gt;&lt;p&gt;You may get some troubles by your computer’ permission。&lt;/p&gt;
+&lt;p&gt;###Error: EISDIR, open&lt;br&gt;it is caused by permission.&lt;br&gt;just do ‘sudo hexo b’&lt;br&gt;&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;sudo&lt;/span&gt; hexo b&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#&lt;a href=&quot;http://www.ezlippi.com/blog/2016/02/jekyll-to-hexo.html#more&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo搭建&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;high
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Windows安装</title>
+    <link href="http://yoursite.com//blog/2016/03/Hexo%20Windows%E5%AE%89%E8%A3%85.html"/>
+    <id>http://yoursite.com//blog/2016/03/Hexo Windows安装.html</id>
+    <published>2016-03-05T17:10:17.000Z</published>
+    <updated>2016-05-24T05:52:55.000Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;本地安装hexo步骤&quot;&gt;&lt;a href=&quot;#本地安装hexo步骤&quot; class=&quot;headerlink&quot; title=&quot;本地安装hexo步骤&quot;&gt;&lt;/a&gt;本地安装hexo步骤&lt;/h1&gt;&lt;p&gt;注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo安装。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;安装Git&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;下载 msysgit 并执行即可完成安装。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;安装Node.js&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 Windows 环境下安装 Node.js 非常简单，仅须下载安装文件并执行即可完成安装。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;安装hexo&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）&lt;br&gt;npm install -g hexo&lt;br&gt;安装完成后，在你喜爱的文件夹下（如H:\hexo），执行以下指令(在H:\hexo内点击鼠标右键，选择Git bash)，Hexo 即会自动在目标文件夹建立网站所需要的所有文件。创建hexo文件夹&lt;br&gt;hexo init&lt;br&gt;安装依赖包&lt;br&gt;本地查看&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;现在我们已经搭建起本地的hexo博客了，执行以下命令(在H:\hexo)，然后到浏览器输入localhost:4000看看。&lt;br&gt;hexo generate&lt;br&gt;hexo server&lt;br&gt;好了，至此，本地博客已经搭建起来了，只是本地哦，别人看不到的。下面，我们要部署到Github。&lt;/p&gt;
+&lt;h1 id=&quot;提交hexo到github步骤&quot;&gt;&lt;a href=&quot;#提交hexo到github步骤&quot; class=&quot;headerlink&quot; title=&quot;提交hexo到github步骤&quot;&gt;&lt;/a&gt;提交hexo到github步骤&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;注册Github账号&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;已有账号可以跳过，没有的，请在此进行注册，很简单，这里就不介绍了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;创建repository&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在自己Github主页右下角，创建一个新的repository。比如我的Github账号是imsofter，那么我应该创建的repository名字应该是imsofter.github.io。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;部署&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;编辑_config.yml(在H:\hexo下)。你在部署时，要把下面的zippera都换成你的账号名。&lt;br&gt;deploy:&lt;br&gt;type: github&lt;br&gt;repository: &lt;span class=&quot;Apple-converted-space&quot;&gt;&lt;/span&gt; &lt;a href=&quot;https://github.com/imsofter/imsofter.github.io.git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/imsofter/imsofter.github.io.git&lt;/a&gt;&lt;br&gt;branch: master&lt;br&gt;执行下列指令即可完成部署。据说最新版本的hexo 中，这里的 type 要写成 git，而不是 github。&lt;br&gt;hexo generate&lt;br&gt;hexo deploy&lt;br&gt;记住：每次修改本地文件后，需要hexo generate才能保存。每次使用命令时，都要在H:\hexo目录下。注意：有些新用户需要设置 ssh，否则上述命令会失败。ssh 的介绍和设置方法请看官方教程，不用担心，很简单。&lt;br&gt;Okay,我们的博客已经完全搭建起来了，在浏览器访问zippera.github.io就能看到你的成就了！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;以下为安装出问题的总结&quot;&gt;&lt;a href=&quot;#以下为安装出问题的总结&quot; class=&quot;headerlink&quot; title=&quot;以下为安装出问题的总结&quot;&gt;&lt;/a&gt;以下为安装出问题的总结&lt;/h1&gt;&lt;h2 id=&quot;安装hexo后，bash-hexo-command-not-found&quot;&gt;&lt;a href=&quot;#安装hexo后，bash-hexo-command-not-found&quot; class=&quot;headerlink&quot; title=&quot;安装hexo后，bash: hexo: command not found&quot;&gt;&lt;/a&gt;安装hexo后，bash: hexo: command not found&lt;/h2&gt;&lt;p&gt;找到C:\Users\Administrator\AppData\Roaming\npm\node_modules\hexo\bin\，将此目录添加到环境变量中&lt;/p&gt;
+&lt;h2 id=&quot;执行-hexo-deploy-后-出现-error-deployer-not-found-github-的错误&quot;&gt;&lt;a href=&quot;#执行-hexo-deploy-后-出现-error-deployer-not-found-github-的错误&quot; class=&quot;headerlink&quot; title=&quot;执行 hexo deploy 后,出现 error deployer not found:github 的错误&quot;&gt;&lt;/a&gt;执行 hexo deploy 后,出现 error deployer not found:github 的错误&lt;/h2&gt;&lt;p&gt;hexo 更新到3.0之后，deploy的type 的github需要改成git&lt;br&gt;repository路径: &lt;span class=&quot;Apple-converted-space&quot;&gt;&lt;/span&gt; &lt;a href=&quot;http://github.com/imsofter/imsofter.github.io.git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://github.com/imsofter/imsofter.github.io.git&lt;/a&gt; &lt;span class=&quot;Apple-converted-space&quot;&gt;&lt;/span&gt; （需要将https修改成http）还不行的话尝试&lt;br&gt;git@github.com:imsofter/imsofter.github.io.git路径&lt;br&gt;改了之后执行npm install hexo-deployer-git –save 安装hexo对于git的部署工具。&lt;/p&gt;
+&lt;p&gt;然后再部署试试&lt;/p&gt;
+&lt;h2 id=&quot;验证报错报错verification-failed：&quot;&gt;&lt;a href=&quot;#验证报错报错verification-failed：&quot; class=&quot;headerlink&quot; title=&quot;验证报错报错verification failed：&quot;&gt;&lt;/a&gt;验证报错报错verification failed：&lt;/h2&gt;&lt;p&gt;Error: Host key verification failed.&lt;br&gt;fatal: Could not read from remote repository.&lt;br&gt;Please make sure you have the correct access rights and the repository exists.&lt;/p&gt;
+&lt;p&gt;解决方法：条件SSHkey&lt;br&gt;$ ssh-keygen -t rsa -C “imsofter@163.com”&lt;br&gt;三次回车，即可设置密码为空&lt;/p&gt;
+&lt;p&gt;将生成的C:\Users\Administrator.ssh目录下的id_rsa.pub添加到github上&lt;br&gt;&lt;img src=&quot;http://images2015.cnblogs.com/blog/577880/201602/577880-20160229183347876-960342404.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;再测试是否可以连接到github上，&lt;br&gt;$ ssh git@github.com&lt;br&gt;Hi imsofter! You’ve successfully authenticated, but GitHub does not provide shell access.&lt;br&gt;Connection to github.com closed.&lt;/p&gt;
+&lt;p&gt;再可以将代码推上github上了。&lt;/p&gt;
+&lt;h2 id=&quot;绑定域名&quot;&gt;&lt;a href=&quot;#绑定域名&quot; class=&quot;headerlink&quot; title=&quot;绑定域名&quot;&gt;&lt;/a&gt;绑定域名&lt;/h2&gt;&lt;p&gt;在source目录下创建CNAME文件&lt;br&gt;DNS设置&lt;br&gt;用DNSpod，快，免费，稳定。&lt;br&gt;注册DNSpod，添加域名，如下图设置。&lt;br&gt;&lt;img src=&quot;http://pic.yupoo.com/vankos_v/DKgbA7WH/wLVyM.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;其中A的两条记录指向的ip地址是github Pages的提供的ip&lt;br&gt;192.30.252.153&lt;br&gt;192.30.252.154&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;本地安装hexo步骤&quot;&gt;&lt;a href=&quot;#本地安装hexo步骤&quot; class=&quot;headerlink&quot; title=&quot;本地安装hexo步骤&quot;&gt;&lt;/a&gt;本地安装hexo步骤&lt;/h1&gt;&lt;p&gt;注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>

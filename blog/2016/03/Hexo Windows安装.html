@@ -1,0 +1,885 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Evilek's-Blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.5.0" />
+
+
+
+
+
+
+<meta name="description" content="本地安装hexo步骤注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo安装。
+
+安装Git
+
+下载 msysgit 并执行即可完成安装。
+
+
+安装Node.js
+
+在 Windows 环境下安装 Node.js 非常简单，仅须下载安装文件并执行即可完成安装。
+
+
+安装hexo
+
+利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）npm insta">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo Windows安装">
+<meta property="og:url" content="http://yoursite.com/blog/2016/03/Hexo Windows安装.html">
+<meta property="og:site_name" content="Evilek's-Blog">
+<meta property="og:description" content="本地安装hexo步骤注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo安装。
+
+安装Git
+
+下载 msysgit 并执行即可完成安装。
+
+
+安装Node.js
+
+在 Windows 环境下安装 Node.js 非常简单，仅须下载安装文件并执行即可完成安装。
+
+
+安装hexo
+
+利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）npm insta">
+<meta property="og:image" content="http://images2015.cnblogs.com/blog/577880/201602/577880-20160229183347876-960342404.png">
+<meta property="og:image" content="http://pic.yupoo.com/vankos_v/DKgbA7WH/wLVyM.png">
+<meta property="og:updated_time" content="2016-05-24T05:52:55.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo Windows安装">
+<meta name="twitter:description" content="本地安装hexo步骤注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo安装。
+
+安装Git
+
+下载 msysgit 并执行即可完成安装。
+
+
+安装Node.js
+
+在 Windows 环境下安装 Node.js 非常简单，仅须下载安装文件并执行即可完成安装。
+
+
+安装hexo
+
+利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）npm insta">
+<meta name="twitter:image" content="http://images2015.cnblogs.com/blog/577880/201602/577880-20160229183347876-960342404.png">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Hexo Windows安装 | Evilek's-Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?e16679be082348c0b3abdb0a48c6f7a0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Evilek's-Blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu menu-left">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+
+
+      
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'hLUxmeJKfa6hx2N3gRyq','2.0.0');
+</script>
+
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Hexo Windows安装
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-03-06T01:10:17+08:00" content="2016-03-06">
+              2016-03-06
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Blog/" itemprop="url" rel="index">
+                    <span itemprop="name">Blog</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/blog/2016/03/Hexo Windows安装.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/03/Hexo Windows安装.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="本地安装hexo步骤"><a href="#本地安装hexo步骤" class="headerlink" title="本地安装hexo步骤"></a>本地安装hexo步骤</h1><p>注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo安装。</p>
+<ul>
+<li><p>安装Git</p>
+<blockquote>
+<p>下载 msysgit 并执行即可完成安装。</p>
+</blockquote>
+</li>
+<li><p>安装Node.js</p>
+<blockquote>
+<p>在 Windows 环境下安装 Node.js 非常简单，仅须下载安装文件并执行即可完成安装。</p>
+</blockquote>
+</li>
+<li><p>安装hexo</p>
+<blockquote>
+<p>利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）<br>npm install -g hexo<br>安装完成后，在你喜爱的文件夹下（如H:\hexo），执行以下指令(在H:\hexo内点击鼠标右键，选择Git bash)，Hexo 即会自动在目标文件夹建立网站所需要的所有文件。创建hexo文件夹<br>hexo init<br>安装依赖包<br>本地查看</p>
+</blockquote>
+</li>
+</ul>
+<p>现在我们已经搭建起本地的hexo博客了，执行以下命令(在H:\hexo)，然后到浏览器输入localhost:4000看看。<br>hexo generate<br>hexo server<br>好了，至此，本地博客已经搭建起来了，只是本地哦，别人看不到的。下面，我们要部署到Github。</p>
+<h1 id="提交hexo到github步骤"><a href="#提交hexo到github步骤" class="headerlink" title="提交hexo到github步骤"></a>提交hexo到github步骤</h1><ul>
+<li><p>注册Github账号</p>
+<blockquote>
+<p>已有账号可以跳过，没有的，请在此进行注册，很简单，这里就不介绍了。</p>
+</blockquote>
+</li>
+<li><p>创建repository</p>
+<blockquote>
+<p>在自己Github主页右下角，创建一个新的repository。比如我的Github账号是imsofter，那么我应该创建的repository名字应该是imsofter.github.io。</p>
+</blockquote>
+</li>
+<li><p>部署</p>
+<blockquote>
+<p>编辑_config.yml(在H:\hexo下)。你在部署时，要把下面的zippera都换成你的账号名。<br>deploy:<br>type: github<br>repository: <span class="Apple-converted-space"></span> <a href="https://github.com/imsofter/imsofter.github.io.git" target="_blank" rel="external">https://github.com/imsofter/imsofter.github.io.git</a><br>branch: master<br>执行下列指令即可完成部署。据说最新版本的hexo 中，这里的 type 要写成 git，而不是 github。<br>hexo generate<br>hexo deploy<br>记住：每次修改本地文件后，需要hexo generate才能保存。每次使用命令时，都要在H:\hexo目录下。注意：有些新用户需要设置 ssh，否则上述命令会失败。ssh 的介绍和设置方法请看官方教程，不用担心，很简单。<br>Okay,我们的博客已经完全搭建起来了，在浏览器访问zippera.github.io就能看到你的成就了！</p>
+</blockquote>
+</li>
+</ul>
+<h1 id="以下为安装出问题的总结"><a href="#以下为安装出问题的总结" class="headerlink" title="以下为安装出问题的总结"></a>以下为安装出问题的总结</h1><h2 id="安装hexo后，bash-hexo-command-not-found"><a href="#安装hexo后，bash-hexo-command-not-found" class="headerlink" title="安装hexo后，bash: hexo: command not found"></a>安装hexo后，bash: hexo: command not found</h2><p>找到C:\Users\Administrator\AppData\Roaming\npm\node_modules\hexo\bin\，将此目录添加到环境变量中</p>
+<h2 id="执行-hexo-deploy-后-出现-error-deployer-not-found-github-的错误"><a href="#执行-hexo-deploy-后-出现-error-deployer-not-found-github-的错误" class="headerlink" title="执行 hexo deploy 后,出现 error deployer not found:github 的错误"></a>执行 hexo deploy 后,出现 error deployer not found:github 的错误</h2><p>hexo 更新到3.0之后，deploy的type 的github需要改成git<br>repository路径: <span class="Apple-converted-space"></span> <a href="http://github.com/imsofter/imsofter.github.io.git" target="_blank" rel="external">http://github.com/imsofter/imsofter.github.io.git</a> <span class="Apple-converted-space"></span> （需要将https修改成http）还不行的话尝试<br>git@github.com:imsofter/imsofter.github.io.git路径<br>改了之后执行npm install hexo-deployer-git –save 安装hexo对于git的部署工具。</p>
+<p>然后再部署试试</p>
+<h2 id="验证报错报错verification-failed："><a href="#验证报错报错verification-failed：" class="headerlink" title="验证报错报错verification failed："></a>验证报错报错verification failed：</h2><p>Error: Host key verification failed.<br>fatal: Could not read from remote repository.<br>Please make sure you have the correct access rights and the repository exists.</p>
+<p>解决方法：条件SSHkey<br>$ ssh-keygen -t rsa -C “imsofter@163.com”<br>三次回车，即可设置密码为空</p>
+<p>将生成的C:\Users\Administrator.ssh目录下的id_rsa.pub添加到github上<br><img src="http://images2015.cnblogs.com/blog/577880/201602/577880-20160229183347876-960342404.png" alt=""></p>
+<p>再测试是否可以连接到github上，<br>$ ssh git@github.com<br>Hi imsofter! You’ve successfully authenticated, but GitHub does not provide shell access.<br>Connection to github.com closed.</p>
+<p>再可以将代码推上github上了。</p>
+<h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>在source目录下创建CNAME文件<br>DNS设置<br>用DNSpod，快，免费，稳定。<br>注册DNSpod，添加域名，如下图设置。<br><img src="http://pic.yupoo.com/vankos_v/DKgbA7WH/wLVyM.png" alt=""><br>其中A的两条记录指向的ip地址是github Pages的提供的ip<br>192.30.252.153<br>192.30.252.154</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo/" rel="tag">#Hexo</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/2016/03/HexoBackup.html" rel="prev" title="Hexo备份与搭建">
+                Hexo备份与搭建 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="/blog/2016/03/Hexo Windows安装.html"
+           data-title="Hexo Windows安装" data-url="http://yoursite.com/blog/2016/03/Hexo Windows安装.html">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="" />
+          <p class="site-author-name" itemprop="name"></p>
+          <p class="site-description motion-element" itemprop="description">Evilek</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+          
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/keliveshd" target="_blank">
+                  
+                    <i class="fa fa-github"></i> GitHub
+                  
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        <div class="links-of-author motion-element">
+          
+            <p class="site-author-name">Links</p>
+            
+              <span class="links-of-author-item">
+                <a href="http://macshuo.com/" target="_blank">MacTalk</a>
+              </span>
+            
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#本地安装hexo步骤"><span class="nav-number">1.</span> <span class="nav-text">本地安装hexo步骤</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#提交hexo到github步骤"><span class="nav-number">2.</span> <span class="nav-text">提交hexo到github步骤</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#以下为安装出问题的总结"><span class="nav-number">3.</span> <span class="nav-text">以下为安装出问题的总结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo后，bash-hexo-command-not-found"><span class="nav-number">3.1.</span> <span class="nav-text">安装hexo后，bash: hexo: command not found</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#执行-hexo-deploy-后-出现-error-deployer-not-found-github-的错误"><span class="nav-number">3.2.</span> <span class="nav-text">执行 hexo deploy 后,出现 error deployer not found:github 的错误</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#验证报错报错verification-failed："><span class="nav-number">3.3.</span> <span class="nav-text">验证报错报错verification failed：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#绑定域名"><span class="nav-number">3.4.</span> <span class="nav-text">绑定域名</span></a></li></ol></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2014 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"></span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+
+  
+
+
+
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=0.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=0.5.0"></script>
+
+
+
+  
+  
+
+  
+  
+<script type="text/javascript" src="/js/src/scrollspy.js?v=0.5.0"></script>
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    NexT.motion.middleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+
+      if (CONFIG.scheme !== 'Pisces' && (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always')) {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          NexT.utils.displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=0.5.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"keliveshd"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+
+</body>
+</html>

@@ -1,0 +1,843 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Mac," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Evilek's-Blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.5.0" />
+
+
+
+
+
+
+<meta name="description" content="首先需要确保电脑装有 Xcode 和 MacPorts。Xcode 可以直接从 App Store 免费下载，MacPorts 的下载地址如下：
+https://distfiles.macports.org/MacPorts/
+MacPorts 前称 DarwinPorts，是一个软件包管理系统，用来简化 Mac OS X 系统上软件的安装。它是一个用来简化自由软件/开放源代码软件的安装的自由/开">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac OS X 用终端破解附近 Wifi 密码">
+<meta property="og:url" content="http://yoursite.com/blog/2016/03/Mac-OS-X-用终端破解附近-Wifi-密码-1.html">
+<meta property="og:site_name" content="Evilek's-Blog">
+<meta property="og:description" content="首先需要确保电脑装有 Xcode 和 MacPorts。Xcode 可以直接从 App Store 免费下载，MacPorts 的下载地址如下：
+https://distfiles.macports.org/MacPorts/
+MacPorts 前称 DarwinPorts，是一个软件包管理系统，用来简化 Mac OS X 系统上软件的安装。它是一个用来简化自由软件/开放源代码软件的安装的自由/开">
+<meta property="og:image" content="http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404131-600x296.png">
+<meta property="og:image" content="http://chaishiwei.com/blog/wp-content/uploads/2014/04/QQ20140413-1-600x415.jpg">
+<meta property="og:image" content="http://chaishiwei.com/blog/wp-content/uploads/2014/04/QQ20140413-2.jpg">
+<meta property="og:image" content="http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404132-600x464.png">
+<meta property="og:image" content="http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404133.png">
+<meta property="og:image" content="http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404134.png">
+<meta property="og:image" content="http://chaishiwei.com/blog/wp-content/uploads/2014/04/QQ20140413-12-600x345.jpg">
+<meta property="og:updated_time" content="2016-05-24T05:52:55.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mac OS X 用终端破解附近 Wifi 密码">
+<meta name="twitter:description" content="首先需要确保电脑装有 Xcode 和 MacPorts。Xcode 可以直接从 App Store 免费下载，MacPorts 的下载地址如下：
+https://distfiles.macports.org/MacPorts/
+MacPorts 前称 DarwinPorts，是一个软件包管理系统，用来简化 Mac OS X 系统上软件的安装。它是一个用来简化自由软件/开放源代码软件的安装的自由/开">
+<meta name="twitter:image" content="http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404131-600x296.png">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Mac OS X 用终端破解附近 Wifi 密码 | Evilek's-Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?e16679be082348c0b3abdb0a48c6f7a0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Evilek's-Blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu menu-left">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+
+
+      
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'hLUxmeJKfa6hx2N3gRyq','2.0.0');
+</script>
+
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Mac OS X 用终端破解附近 Wifi 密码
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-03-06T22:40:58+08:00" content="2016-03-06">
+              2016-03-06
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Hack/" itemprop="url" rel="index">
+                    <span itemprop="name">Hack</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/blog/2016/03/Mac-OS-X-用终端破解附近-Wifi-密码-1.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/03/Mac-OS-X-用终端破解附近-Wifi-密码-1.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>首先需要确保电脑装有 Xcode 和 MacPorts。Xcode 可以直接从 App Store 免费下载，MacPorts 的下载地址如下：</p>
+<p><a href="https://distfiles.macports.org/MacPorts/" target="_blank" rel="external">https://distfiles.macports.org/MacPorts/</a></p>
+<p>MacPorts 前称 DarwinPorts，是一个软件包管理系统，用来简化 Mac OS X 系统上软件的安装。它是一个用来简化自由软件/开放源代码软件的安装的自由/开放源代码项目，与Fink和BSD类ports套件的目标和功能类似。它可以让用户在终端中简单的输入 port install 软件包名称来安装软件包，软件的下载、编译、安装以及它依赖的所有其他软件包的安装都会自动完成。</p>
+<p>我下载的是「MacPorts-2.2.1-10.9-Mavericks.pkg」这个版本。</p>
+<p>安装好 Macport 后，则开始安装Aircrack，打开终端输入命令：</p>
+<figure class="highlight elm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> <span class="keyword">port</span> install aircrack-ng</span><br></pre></td></tr></table></figure>
+<p>等待一段时间安装，然后使用mac系统下自带的 airport 进行附近 wifi 信号的监测。</p>
+<p>首先我们将 airport 命令引入到用户命令里，在终端输入：</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ln -s <span class="regexp">/System/</span>Library<span class="regexp">/PrivateFrameworks/</span>Apple80211.framework<span class="regexp">/Versions/</span>Current<span class="regexp">/Resources/</span>airport <span class="regexp">/usr/</span>sbin<span class="regexp">/airport</span></span><br></pre></td></tr></table></figure>
+<p>el capitan 后只能用<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH=<span class="variable">$PATH</span><span class="symbol">:/System/Library/PrivateFrameworks/Apple80211</span>.framework/Versions/Current/Resources/</span><br></pre></td></tr></table></figure></p>
+<p><img src="http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404131-600x296.png" alt="201404131"></p>
+<p>SSID 是 wifi名称，RSSI 是信号强度，CHANNEL 是信道。</p>
+<p>接着挑选一个信号强的信道进行监听抓包（比如信道1），在终端输入：<br><figure class="highlight elm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> air<span class="keyword">port</span> en1 sniff  1</span><br></pre></td></tr></table></figure></p>
+<p>这时，会提示输入管理员密码，输入时密码是不会显示出来，输入完敲回车就开始监听抓包了。命令中的 en1 是自己电脑的网卡地址，有的电脑可能是 en0，根据自己的实际情况进行输入，查看电脑网卡地址的地方如下：</p>
+<p><img src="http://chaishiwei.com/blog/wp-content/uploads/2014/04/QQ20140413-1-600x415.jpg" alt="QQ20140413-1"></p>
+<p>大概等待2-5分钟就可以按 command + c 组合键退出查看含有抓包的cap文件了，文件所在地址是/tmp，可以使用Finder的前往文件夹功能进入：</p>
+<p><img src="http://chaishiwei.com/blog/wp-content/uploads/2014/04/QQ20140413-2.jpg" alt="QQ20140413-2"></p>
+<p>可以将cap文件移到我们想保存的地方，也可以不移走（重启后就没有了）。</p>
+<p>接下来就进入关键的破解wifi密码的过程了，先在桌面建一个文件夹，取名「wifi」，将字典和cap文件都放到这个文件夹内（假设字典是01.txt，cap文件名是01.cap，在终端输入：</p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> ~/Desktop/wifi</span><br><span class="line">aircrack-ng -w 01.txt 01.<span class="keyword">cap</span></span><br></pre></td></tr></table></figure>
+<p><img src="http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404132-600x464.png" alt="201404132"></p>
+<p>就可以看到cap文件内的抓包情况，Encryption中（0 handshake）是抓包失败，（1 handshake）则是抓包成功。图中看到第11行抓包成功，则在「Index number of target network ?」这里输入11后敲回车：</p>
+<p><img src="http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404133.png" alt="201404133"></p>
+<p>如果cap文件内全是（0 handshake），就按 command + c 组合键退出。重新回到「sudo airport en1 sniff 1」这步进行监听抓包。抓包成功率受到 wifi 信号强弱、电脑与路由器距离远近、路由器是否正处在收发数据状态的影响。总之多试几次、监听时间适当延长些，可以大大提高成功率。</p>
+<p>进入到破解过程界面，如图：</p>
+<p><img src="http://chaishiwei.com/blog/wp-content/uploads/2014/04/201404134.png" alt="201404134"></p>
+<p>接下来等待破解结果就行了，中断破解过程可以直接按 command + c 组合键退出。破解过程所需时间长短受电脑硬件配置、字典体积大小的影响。如果01.txt字典破解失败，则可以换其它字典进行破解，直到破解成功。</p>
+<p>使用一个好的字典是很重要的，一个9位的纯数字字典大概1G多，结果经过几个小时的破解，如果密码是987654321就很令人郁闷了，所以最好准备几个常用的wifi密码字典，可以大大提高成功率和节省时间。常用字典可以直接百度Google搜索下载。</p>
+<p>我在测试这个暴力破解方法时并没成功过，估计是附近的wifi密码都太冷门，导致我准备的几个字典都没对应上。如果破解成功则会如下图所示：</p>
+<p><img src="http://chaishiwei.com/blog/wp-content/uploads/2014/04/QQ20140413-12-600x345.jpg" alt="QQ20140413-12"></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Mac/" rel="tag">#Mac</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/2016/03/HexoBackup.html" rel="next" title="Hexo备份与搭建">
+                <i class="fa fa-chevron-left"></i> Hexo备份与搭建
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/2016/05/hello-world.html" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="/blog/2016/03/Mac-OS-X-用终端破解附近-Wifi-密码-1.html"
+           data-title="Mac OS X 用终端破解附近 Wifi 密码" data-url="http://yoursite.com/blog/2016/03/Mac-OS-X-用终端破解附近-Wifi-密码-1.html">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="" />
+          <p class="site-author-name" itemprop="name"></p>
+          <p class="site-description motion-element" itemprop="description">Evilek</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+          
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/keliveshd" target="_blank">
+                  
+                    <i class="fa fa-github"></i> GitHub
+                  
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        <div class="links-of-author motion-element">
+          
+            <p class="site-author-name">Links</p>
+            
+              <span class="links-of-author-item">
+                <a href="http://macshuo.com/" target="_blank">MacTalk</a>
+              </span>
+            
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2014 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"></span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+
+  
+
+
+
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=0.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=0.5.0"></script>
+
+
+
+  
+  
+
+  
+  
+<script type="text/javascript" src="/js/src/scrollspy.js?v=0.5.0"></script>
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    NexT.motion.middleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+
+      if (CONFIG.scheme !== 'Pisces' && (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always')) {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          NexT.utils.displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=0.5.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"keliveshd"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+
+</body>
+</html>
