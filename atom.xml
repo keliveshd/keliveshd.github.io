@@ -5,17 +5,85 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-24T05:52:55.000Z</updated>
+  <updated>2016-05-24T12:13:51.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iTerm 2 &amp;&amp; Oh My Zsh</title>
+    <link href="http://yoursite.com//blog/2016/05/iTerm-2-Oh-My-Zsh.html"/>
+    <id>http://yoursite.com//blog/2016/05/iTerm-2-Oh-My-Zsh.html</id>
+    <published>2016-05-24T12:01:55.000Z</published>
+    <updated>2016-05-24T12:13:51.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;strong&gt;转自&lt;/strong&gt;&lt;a href=&quot;http://www.jianshu.com/p/7de00c73a2bb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/7de00c73a2bb&lt;/a&gt; 作者:SuperDanny&lt;/p&gt;
+&lt;p&gt;一年前，在搞终端的时候偶然一次机会，让我看到了各种强大的DIY界面，这让我很想去自己搞一个。于是在网上不断的寻找资源，也请教了大多数朋友。最终以失败告终。最近，本人又突然想起当时这件事，于是，决定边做笔记，边尝试当初失败的过程。经过一个晚上的时间，终于DIY出我梦寐以求的效果。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;先放上最终DIY效果图：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/645592-08177ac961155bb7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240/format/jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;下面，我将分步骤讲解我是怎么一步一步完成DIY过程&quot;&gt;&lt;a href=&quot;#下面，我将分步骤讲解我是怎么一步一步完成DIY过程&quot; class=&quot;headerlink&quot; title=&quot;下面，我将分步骤讲解我是怎么一步一步完成DIY过程&quot;&gt;&lt;/a&gt;下面，我将分步骤讲解我是怎么一步一步完成DIY过程&lt;/h3&gt;&lt;h3 id=&quot;1-首先下载-iTerm-2&quot;&gt;&lt;a href=&quot;#1-首先下载-iTerm-2&quot; class=&quot;headerlink&quot; title=&quot;1. 首先下载 iTerm 2&quot;&gt;&lt;/a&gt;1. 首先下载 &lt;a href=&quot;http://www.iterm2.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;iTerm 2&lt;/a&gt;&lt;/h3&gt;&lt;h3 id=&quot;2-打开iTerm-2&quot;&gt;&lt;a href=&quot;#2-打开iTerm-2&quot; class=&quot;headerlink&quot; title=&quot;2. 打开iTerm 2&quot;&gt;&lt;/a&gt;2. 打开iTerm 2&lt;/h3&gt;&lt;h3 id=&quot;3-输入下面指令安装oh-my-zsh&quot;&gt;&lt;a href=&quot;#3-输入下面指令安装oh-my-zsh&quot; class=&quot;headerlink&quot; title=&quot;3. 输入下面指令安装oh-my-zsh&quot;&gt;&lt;/a&gt;3. 输入下面指令安装&lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;oh-my-zsh&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;4-接下来安装Powerline&quot;&gt;&lt;a href=&quot;#4-接下来安装Powerline&quot; class=&quot;headerlink&quot; title=&quot;4. 接下来安装Powerline&quot;&gt;&lt;/a&gt;4. 接下来安装&lt;a href=&quot;http://powerline.readthedocs.org/en/latest/installation.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Powerline&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在官网有教程，我们只需要执行官网第一条安装指令就行&lt;/p&gt;
+&lt;p&gt;如果你的终端能够正常执行pip指令，那么直接执行下面的指令可以完成安装&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip install powerline-status&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;如果没有，则先执行安装pip指令&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo easy_install pip&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;5-下载、安装库字体库&quot;&gt;&lt;a href=&quot;#5-下载、安装库字体库&quot; class=&quot;headerlink&quot; title=&quot;5. 下载、安装库字体库&quot;&gt;&lt;/a&gt;5. 下载、安装库&lt;a href=&quot;https://github.com/powerline/fonts&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;字体库&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;1）将工程下载下来后cd到&lt;code&gt;install.sh&lt;/code&gt;文件所在目录&lt;/p&gt;
+&lt;p&gt;2）执行指令安装字体库&lt;/p&gt;
+&lt;p&gt;执行&lt;code&gt;./install.sh&lt;/code&gt;指令安装所有Powerline字体&lt;/p&gt;
+&lt;p&gt;安装完成后提示所有字体均已下载到&lt;code&gt;/Users/superdanny/Library/Fonts&lt;/code&gt;路径下&lt;/p&gt;
+&lt;p&gt;All Powerline fonts installed to /Users/superdanny/Library/Fonts&lt;/p&gt;
+&lt;h3 id=&quot;6-设置iTerm-2的Regular-Font-和-Non-ASCII-Font&quot;&gt;&lt;a href=&quot;#6-设置iTerm-2的Regular-Font-和-Non-ASCII-Font&quot; class=&quot;headerlink&quot; title=&quot;6. 设置iTerm 2的Regular Font 和 Non-ASCII Font&quot;&gt;&lt;/a&gt;6. 设置iTerm 2的Regular Font 和 Non-ASCII Font&lt;/h3&gt;&lt;p&gt;安装完字体库之后，把iTerm 2的设置里的&lt;code&gt;Profile&lt;/code&gt;中的&lt;code&gt;Text&lt;/code&gt; 选项卡中里的&lt;code&gt;Regular Font&lt;/code&gt;和&lt;code&gt;Non-ASCII Font&lt;/code&gt;的字体都设置成 Powerline的字体，我这里设置的字体是12pt Meslo LG S DZ Regular for Powerline&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/645592-eafa2148c1755383.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240/format/jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;7-配色方案&quot;&gt;&lt;a href=&quot;#7-配色方案&quot; class=&quot;headerlink&quot; title=&quot;7. 配色方案&quot;&gt;&lt;/a&gt;7. 配色方案&lt;/h3&gt;&lt;p&gt;1）安装&lt;a href=&quot;https://github.com/altercation/solarized&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配色方案&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;进入刚刚下载的工程的&lt;code&gt;solarized/iterm2-colors-solarized&lt;/code&gt; 下双击 &lt;code&gt;Solarized Dark.itermcolors&lt;/code&gt; 和 &lt;code&gt;Solarized Light.itermcolors&lt;/code&gt; 两个文件就可以把配置文件导入到 iTerm2 里&lt;/p&gt;
+&lt;p&gt;2）配置配色方案&lt;/p&gt;
+&lt;p&gt;通过load presets选择刚刚安装的配色主题即可&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/645592-00c72100725f2407.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240/format/jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;8-使用agnoster主题&quot;&gt;&lt;a href=&quot;#8-使用agnoster主题&quot; class=&quot;headerlink&quot; title=&quot;8. 使用agnoster主题&quot;&gt;&lt;/a&gt;8. 使用agnoster主题&lt;/h3&gt;&lt;p&gt;1）下载&lt;a href=&quot;https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;agnoster&lt;/a&gt;主题&lt;br&gt;到下载的工程里面运行install文件,主题将安装到&lt;code&gt;~/.oh-my-zsh/themes&lt;/code&gt;目录下&lt;/p&gt;
+&lt;p&gt;2）设置该主题&lt;br&gt;进入&lt;code&gt;~/.zshrc&lt;/code&gt;打开&lt;code&gt;.zshrc&lt;/code&gt;文件，然后将&lt;code&gt;ZSH_THEME&lt;/code&gt;后面的字段改为&lt;code&gt;agnoster&lt;/code&gt;。&lt;code&gt;ZSH_THEME=&amp;quot;agnoster&amp;quot;&lt;/code&gt;（agnoster即为要设置的主题）&lt;/p&gt;
+&lt;h3 id=&quot;9-增加指令高亮效果——zsh-syntax-highlighting&quot;&gt;&lt;a href=&quot;#9-增加指令高亮效果——zsh-syntax-highlighting&quot; class=&quot;headerlink&quot; title=&quot;9. 增加指令高亮效果——zsh-syntax-highlighting&quot;&gt;&lt;/a&gt;9. 增加指令高亮效果——&lt;a href=&quot;https://github.com/zsh-users/zsh-syntax-highlighting&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;zsh-syntax-highlighting&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;指令高亮效果作用是当用户输入正确命令时指令会绿色高亮，错误时命令红色高亮&lt;/p&gt;
+&lt;p&gt;1）cd到&lt;code&gt;.zshrc&lt;/code&gt;所在目录&lt;/p&gt;
+&lt;p&gt;2）执行指令将工程克隆到当前目录&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git clone git://github.com/zsh-users/zsh-syntax-highlighting.git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;3）打开&lt;code&gt;.zshrc&lt;/code&gt;文件，在最后添加下面内容&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;source XXX/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;保存文件。&lt;/p&gt;
+&lt;p&gt;注意：&lt;code&gt;xxx&lt;/code&gt;代表&lt;code&gt;.zshrc&lt;/code&gt;所在目录&lt;/p&gt;
+&lt;p&gt;4）&lt;code&gt;cd ~/.oh-my-zsh/custom/plugins&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;5）再次打开&lt;code&gt;.zshrc&lt;/code&gt;文件，在最后面添加下面内容&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;plugins=(zsh-syntax-highlighting)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;保存文件。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;问题解答区&quot;&gt;&lt;a href=&quot;#问题解答区&quot; class=&quot;headerlink&quot; title=&quot;问题解答区&quot;&gt;&lt;/a&gt;问题解答区&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;启动iTerm 2 默认使用dash改用zsh解决方法：&lt;br&gt;&lt;code&gt;chsh -s /bin/zsh&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;执行指令&lt;code&gt;pip install powerline-status&lt;/code&gt;出错解决方法：&lt;br&gt;需要下载苹果官方的&lt;a href=&quot;https://developer.apple.com/downloads/index.action?name=for%20Xcode%20&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Command line&lt;/a&gt;。必須官方工具下载最新版 Command Line&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;⌘+Q关闭iTerm 2 时每次弹窗提示问题：&lt;br&gt;iTerm 2 中，进入&lt;code&gt;Preference&lt;/code&gt;-&lt;code&gt;General&lt;/code&gt;-&lt;code&gt;Closing栏目&lt;/code&gt;，将&lt;code&gt;Confirm &amp;quot;Quit iTerm2(⌘Q)&amp;quot; command&lt;/code&gt;选项勾选去掉就行&lt;/li&gt;
+&lt;li&gt;找不到.zshrc文件问题：&lt;br&gt;我这里将我的.zshrc文件分享出来。供大家下载&lt;a href=&quot;http://pan.baidu.com/s/1sk1LqCt&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;网盘&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;转自&lt;/strong&gt;&lt;a href=&quot;http://www.jianshu.com/p/7de00c73a2bb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/7de00c73a2bb&lt;/
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
+    
+    
+      <category term="Mac" scheme="http://yoursite.com/tags/Mac/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac OS X 用终端破解附近 Wifi 密码</title>
     <link href="http://yoursite.com//blog/2016/03/Mac-OS-X-%E7%94%A8%E7%BB%88%E7%AB%AF%E7%A0%B4%E8%A7%A3%E9%99%84%E8%BF%91-Wifi-%E5%AF%86%E7%A0%81-1.html"/>
     <id>http://yoursite.com//blog/2016/03/Mac-OS-X-用终端破解附近-Wifi-密码-1.html</id>
     <published>2016-03-06T14:40:58.000Z</published>
-    <updated>2016-05-24T05:52:55.000Z</updated>
+    <updated>2016-05-24T12:10:34.000Z</updated>
     
     <content type="html">&lt;p&gt;首先需要确保电脑装有 Xcode 和 MacPorts。Xcode 可以直接从 App Store 免费下载，MacPorts 的下载地址如下：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://distfiles.macports.org/MacPorts/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://distfiles.macports.org/MacPorts/&lt;/a&gt;&lt;/p&gt;
@@ -121,7 +189,7 @@
     <link href="http://yoursite.com//blog/2016/03/Hexo%20Windows%E5%AE%89%E8%A3%85.html"/>
     <id>http://yoursite.com//blog/2016/03/Hexo Windows安装.html</id>
     <published>2016-03-05T17:10:17.000Z</published>
-    <updated>2016-05-24T05:52:55.000Z</updated>
+    <updated>2016-05-24T12:11:15.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;本地安装hexo步骤&quot;&gt;&lt;a href=&quot;#本地安装hexo步骤&quot; class=&quot;headerlink&quot; title=&quot;本地安装hexo步骤&quot;&gt;&lt;/a&gt;本地安装hexo步骤&lt;/h1&gt;&lt;p&gt;注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo安装。&lt;/p&gt;
 &lt;ul&gt;

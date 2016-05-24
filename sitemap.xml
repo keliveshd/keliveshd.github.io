@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/blog/2016/03/Mac-OS-X-%E7%94%A8%E7%BB%88%E7%AB%AF%E7%A0%B4%E8%A7%A3%E9%99%84%E8%BF%91-Wifi-%E5%AF%86%E7%A0%81-1.html</loc>
+    <loc>http://yoursite.com/blog/2016/05/iTerm-2-Oh-My-Zsh.html</loc>
     
-    <lastmod>2016-05-24T05:52:55.000Z</lastmod>
+    <lastmod>2016-05-24T12:13:51.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/blog/2016/03/Hexo%20Windows%E5%AE%89%E8%A3%85.html</loc>
     
-    <lastmod>2016-05-24T05:52:55.000Z</lastmod>
+    <lastmod>2016-05-24T12:11:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/2016/03/Mac-OS-X-%E7%94%A8%E7%BB%88%E7%AB%AF%E7%A0%B4%E8%A7%A3%E9%99%84%E8%BF%91-Wifi-%E5%AF%86%E7%A0%81-1.html</loc>
+    
+    <lastmod>2016-05-24T12:10:34.000Z</lastmod>
     
   </url>
   
@@ -30,14 +37,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2016-05-24T05:52:55.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2016-05-24T05:52:55.000Z</lastmod>
     
