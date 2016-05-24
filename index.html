@@ -336,7 +336,7 @@
           
             <p><strong>转自</strong><a href="http://www.jianshu.com/p/7de00c73a2bb" target="_blank" rel="external">http://www.jianshu.com/p/7de00c73a2bb</a> 作者:SuperDanny</p>
 <p>一年前，在搞终端的时候偶然一次机会，让我看到了各种强大的DIY界面，这让我很想去自己搞一个。于是在网上不断的寻找资源，也请教了大多数朋友。最终以失败告终。最近，本人又突然想起当时这件事，于是，决定边做笔记，边尝试当初失败的过程。经过一个晚上的时间，终于DIY出我梦寐以求的效果。</p>
-<p><strong>先放上最终DIY效果图：</strong><br><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-08177ac961155bb7.png.jpeg" alt="645592-08177ac961155bb7.png"></p>
+<p><strong>先放上最终DIY效果图：</strong><br><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-08177ac961155bb7.png-1.jpeg" alt="645592-08177ac961155bb7.png"></p>
 <h3 id="下面，我将分步骤讲解我是怎么一步一步完成DIY过程"><a href="#下面，我将分步骤讲解我是怎么一步一步完成DIY过程" class="headerlink" title="下面，我将分步骤讲解我是怎么一步一步完成DIY过程"></a>下面，我将分步骤讲解我是怎么一步一步完成DIY过程</h3><h3 id="1-首先下载-iTerm-2"><a href="#1-首先下载-iTerm-2" class="headerlink" title="1. 首先下载 iTerm 2"></a>1. 首先下载 <a href="http://www.iterm2.com/" target="_blank" rel="external">iTerm 2</a></h3><h3 id="2-打开iTerm-2"><a href="#2-打开iTerm-2" class="headerlink" title="2. 打开iTerm 2"></a>2. 打开iTerm 2</h3><h3 id="3-输入下面指令安装oh-my-zsh"><a href="#3-输入下面指令安装oh-my-zsh" class="headerlink" title="3. 输入下面指令安装oh-my-zsh"></a>3. 输入下面指令安装<a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="external">oh-my-zsh</a></h3><p><code>curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh</code></p>
 <h3 id="4-接下来安装Powerline"><a href="#4-接下来安装Powerline" class="headerlink" title="4. 接下来安装Powerline"></a>4. 接下来安装<a href="http://powerline.readthedocs.org/en/latest/installation.html" target="_blank" rel="external">Powerline</a></h3><p>在官网有教程，我们只需要执行官网第一条安装指令就行</p>
 <p>如果你的终端能够正常执行pip指令，那么直接执行下面的指令可以完成安装</p>
@@ -349,12 +349,12 @@
 <p>安装完成后提示所有字体均已下载到<code>/Users/superdanny/Library/Fonts</code>路径下</p>
 <p>All Powerline fonts installed to /Users/superdanny/Library/Fonts</p>
 <h3 id="6-设置iTerm-2的Regular-Font-和-Non-ASCII-Font"><a href="#6-设置iTerm-2的Regular-Font-和-Non-ASCII-Font" class="headerlink" title="6. 设置iTerm 2的Regular Font 和 Non-ASCII Font"></a>6. 设置iTerm 2的Regular Font 和 Non-ASCII Font</h3><p>安装完字体库之后，把iTerm 2的设置里的<code>Profile</code>中的<code>Text</code> 选项卡中里的<code>Regular Font</code>和<code>Non-ASCII Font</code>的字体都设置成 Powerline的字体，我这里设置的字体是12pt Meslo LG S DZ Regular for Powerline</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/645592-eafa2148c1755383.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240/format/jpg" alt=""></p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-eafa2148c1755383-2.jpeg" alt="645592-eafa2148"></p>
 <h3 id="7-配色方案"><a href="#7-配色方案" class="headerlink" title="7. 配色方案"></a>7. 配色方案</h3><p>1）安装<a href="https://github.com/altercation/solarized" target="_blank" rel="external">配色方案</a></p>
 <p>进入刚刚下载的工程的<code>solarized/iterm2-colors-solarized</code> 下双击 <code>Solarized Dark.itermcolors</code> 和 <code>Solarized Light.itermcolors</code> 两个文件就可以把配置文件导入到 iTerm2 里</p>
 <p>2）配置配色方案</p>
 <p>通过load presets选择刚刚安装的配色主题即可</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/645592-00c72100725f2407.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240/format/jpg" alt=""></p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-00c72100725f2407.jpeg" alt="645592-00c72100725f2407"></p>
 <h3 id="8-使用agnoster主题"><a href="#8-使用agnoster主题" class="headerlink" title="8. 使用agnoster主题"></a>8. 使用agnoster主题</h3><p>1）下载<a href="https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor" target="_blank" rel="external">agnoster</a>主题<br>到下载的工程里面运行install文件,主题将安装到<code>~/.oh-my-zsh/themes</code>目录下</p>
 <p>2）设置该主题<br>进入<code>~/.zshrc</code>打开<code>.zshrc</code>文件，然后将<code>ZSH_THEME</code>后面的字段改为<code>agnoster</code>。<code>ZSH_THEME=&quot;agnoster&quot;</code>（agnoster即为要设置的主题）</p>
 <h3 id="9-增加指令高亮效果——zsh-syntax-highlighting"><a href="#9-增加指令高亮效果——zsh-syntax-highlighting" class="headerlink" title="9. 增加指令高亮效果——zsh-syntax-highlighting"></a>9. 增加指令高亮效果——<a href="https://github.com/zsh-users/zsh-syntax-highlighting" target="_blank" rel="external">zsh-syntax-highlighting</a></h3><p>指令高亮效果作用是当用户输入正确命令时指令会绿色高亮，错误时命令红色高亮</p>

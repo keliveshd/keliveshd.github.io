@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-24T12:26:24.000Z</updated>
+  <updated>2016-05-24T12:32:17.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -15,11 +15,11 @@
     <link href="http://yoursite.com//blog/2016/05/iTerm-2-Oh-My-Zsh.html"/>
     <id>http://yoursite.com//blog/2016/05/iTerm-2-Oh-My-Zsh.html</id>
     <published>2016-05-24T12:01:55.000Z</published>
-    <updated>2016-05-24T12:26:24.000Z</updated>
+    <updated>2016-05-24T12:32:17.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;转自&lt;/strong&gt;&lt;a href=&quot;http://www.jianshu.com/p/7de00c73a2bb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/7de00c73a2bb&lt;/a&gt; 作者:SuperDanny&lt;/p&gt;
 &lt;p&gt;一年前，在搞终端的时候偶然一次机会，让我看到了各种强大的DIY界面，这让我很想去自己搞一个。于是在网上不断的寻找资源，也请教了大多数朋友。最终以失败告终。最近，本人又突然想起当时这件事，于是，决定边做笔记，边尝试当初失败的过程。经过一个晚上的时间，终于DIY出我梦寐以求的效果。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;先放上最终DIY效果图：&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-08177ac961155bb7.png.jpeg&quot; alt=&quot;645592-08177ac961155bb7.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;先放上最终DIY效果图：&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-08177ac961155bb7.png-1.jpeg&quot; alt=&quot;645592-08177ac961155bb7.png&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;下面，我将分步骤讲解我是怎么一步一步完成DIY过程&quot;&gt;&lt;a href=&quot;#下面，我将分步骤讲解我是怎么一步一步完成DIY过程&quot; class=&quot;headerlink&quot; title=&quot;下面，我将分步骤讲解我是怎么一步一步完成DIY过程&quot;&gt;&lt;/a&gt;下面，我将分步骤讲解我是怎么一步一步完成DIY过程&lt;/h3&gt;&lt;h3 id=&quot;1-首先下载-iTerm-2&quot;&gt;&lt;a href=&quot;#1-首先下载-iTerm-2&quot; class=&quot;headerlink&quot; title=&quot;1. 首先下载 iTerm 2&quot;&gt;&lt;/a&gt;1. 首先下载 &lt;a href=&quot;http://www.iterm2.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;iTerm 2&lt;/a&gt;&lt;/h3&gt;&lt;h3 id=&quot;2-打开iTerm-2&quot;&gt;&lt;a href=&quot;#2-打开iTerm-2&quot; class=&quot;headerlink&quot; title=&quot;2. 打开iTerm 2&quot;&gt;&lt;/a&gt;2. 打开iTerm 2&lt;/h3&gt;&lt;h3 id=&quot;3-输入下面指令安装oh-my-zsh&quot;&gt;&lt;a href=&quot;#3-输入下面指令安装oh-my-zsh&quot; class=&quot;headerlink&quot; title=&quot;3. 输入下面指令安装oh-my-zsh&quot;&gt;&lt;/a&gt;3. 输入下面指令安装&lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;oh-my-zsh&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&quot;4-接下来安装Powerline&quot;&gt;&lt;a href=&quot;#4-接下来安装Powerline&quot; class=&quot;headerlink&quot; title=&quot;4. 接下来安装Powerline&quot;&gt;&lt;/a&gt;4. 接下来安装&lt;a href=&quot;http://powerline.readthedocs.org/en/latest/installation.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Powerline&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在官网有教程，我们只需要执行官网第一条安装指令就行&lt;/p&gt;
 &lt;p&gt;如果你的终端能够正常执行pip指令，那么直接执行下面的指令可以完成安装&lt;/p&gt;
@@ -32,12 +32,12 @@
 &lt;p&gt;安装完成后提示所有字体均已下载到&lt;code&gt;/Users/superdanny/Library/Fonts&lt;/code&gt;路径下&lt;/p&gt;
 &lt;p&gt;All Powerline fonts installed to /Users/superdanny/Library/Fonts&lt;/p&gt;
 &lt;h3 id=&quot;6-设置iTerm-2的Regular-Font-和-Non-ASCII-Font&quot;&gt;&lt;a href=&quot;#6-设置iTerm-2的Regular-Font-和-Non-ASCII-Font&quot; class=&quot;headerlink&quot; title=&quot;6. 设置iTerm 2的Regular Font 和 Non-ASCII Font&quot;&gt;&lt;/a&gt;6. 设置iTerm 2的Regular Font 和 Non-ASCII Font&lt;/h3&gt;&lt;p&gt;安装完字体库之后，把iTerm 2的设置里的&lt;code&gt;Profile&lt;/code&gt;中的&lt;code&gt;Text&lt;/code&gt; 选项卡中里的&lt;code&gt;Regular Font&lt;/code&gt;和&lt;code&gt;Non-ASCII Font&lt;/code&gt;的字体都设置成 Powerline的字体，我这里设置的字体是12pt Meslo LG S DZ Regular for Powerline&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/645592-eafa2148c1755383.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240/format/jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-eafa2148c1755383-2.jpeg&quot; alt=&quot;645592-eafa2148&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;7-配色方案&quot;&gt;&lt;a href=&quot;#7-配色方案&quot; class=&quot;headerlink&quot; title=&quot;7. 配色方案&quot;&gt;&lt;/a&gt;7. 配色方案&lt;/h3&gt;&lt;p&gt;1）安装&lt;a href=&quot;https://github.com/altercation/solarized&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配色方案&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;进入刚刚下载的工程的&lt;code&gt;solarized/iterm2-colors-solarized&lt;/code&gt; 下双击 &lt;code&gt;Solarized Dark.itermcolors&lt;/code&gt; 和 &lt;code&gt;Solarized Light.itermcolors&lt;/code&gt; 两个文件就可以把配置文件导入到 iTerm2 里&lt;/p&gt;
 &lt;p&gt;2）配置配色方案&lt;/p&gt;
 &lt;p&gt;通过load presets选择刚刚安装的配色主题即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/645592-00c72100725f2407.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240/format/jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-00c72100725f2407.jpeg&quot; alt=&quot;645592-00c72100725f2407&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;8-使用agnoster主题&quot;&gt;&lt;a href=&quot;#8-使用agnoster主题&quot; class=&quot;headerlink&quot; title=&quot;8. 使用agnoster主题&quot;&gt;&lt;/a&gt;8. 使用agnoster主题&lt;/h3&gt;&lt;p&gt;1）下载&lt;a href=&quot;https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;agnoster&lt;/a&gt;主题&lt;br&gt;到下载的工程里面运行install文件,主题将安装到&lt;code&gt;~/.oh-my-zsh/themes&lt;/code&gt;目录下&lt;/p&gt;
 &lt;p&gt;2）设置该主题&lt;br&gt;进入&lt;code&gt;~/.zshrc&lt;/code&gt;打开&lt;code&gt;.zshrc&lt;/code&gt;文件，然后将&lt;code&gt;ZSH_THEME&lt;/code&gt;后面的字段改为&lt;code&gt;agnoster&lt;/code&gt;。&lt;code&gt;ZSH_THEME=&amp;quot;agnoster&amp;quot;&lt;/code&gt;（agnoster即为要设置的主题）&lt;/p&gt;
 &lt;h3 id=&quot;9-增加指令高亮效果——zsh-syntax-highlighting&quot;&gt;&lt;a href=&quot;#9-增加指令高亮效果——zsh-syntax-highlighting&quot; class=&quot;headerlink&quot; title=&quot;9. 增加指令高亮效果——zsh-syntax-highlighting&quot;&gt;&lt;/a&gt;9. 增加指令高亮效果——&lt;a href=&quot;https://github.com/zsh-users/zsh-syntax-highlighting&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;zsh-syntax-highlighting&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;指令高亮效果作用是当用户输入正确命令时指令会绿色高亮，错误时命令红色高亮&lt;/p&gt;
