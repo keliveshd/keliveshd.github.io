@@ -59,30 +59,21 @@
 
 
 
-<meta name="description" content="iOS 高效添加圆角效果圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导人错误。本文总结整理了一些知识点，概括如下：
-
-设置圆角的正确姿势及其原理
-设置圆角的性能损耗
-其他设置圆角的">
+<meta name="description" content="iOS 高效添加圆角效果转载:http://www.jianshu.com/p/f970872fdc22作者:bestswifter
+圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导">
 <meta property="og:type" content="article">
 <meta property="og:title" content="iOS 高效添加圆角效果">
 <meta property="og:url" content="http://yoursite.com/blog/2016/05/iOS-高效添加圆角效果.html">
 <meta property="og:site_name" content="Evilek's-Blog">
-<meta property="og:description" content="iOS 高效添加圆角效果圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导人错误。本文总结整理了一些知识点，概括如下：
-
-设置圆角的正确姿势及其原理
-设置圆角的性能损耗
-其他设置圆角的">
+<meta property="og:description" content="iOS 高效添加圆角效果转载:http://www.jianshu.com/p/f970872fdc22作者:bestswifter
+圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1171077-ce706c8797fdcdef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1171077-331ca6074d5b02c2.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2016-05-25T08:50:33.000Z">
+<meta property="og:updated_time" content="2016-05-25T08:56:12.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iOS 高效添加圆角效果">
-<meta name="twitter:description" content="iOS 高效添加圆角效果圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导人错误。本文总结整理了一些知识点，概括如下：
-
-设置圆角的正确姿势及其原理
-设置圆角的性能损耗
-其他设置圆角的">
+<meta name="twitter:description" content="iOS 高效添加圆角效果转载:http://www.jianshu.com/p/f970872fdc22作者:bestswifter
+圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导">
 <meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1171077-ce706c8797fdcdef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
@@ -349,7 +340,8 @@
       
 
       
-        <h1 id="iOS-高效添加圆角效果"><a href="#iOS-高效添加圆角效果" class="headerlink" title="iOS 高效添加圆角效果"></a>iOS 高效添加圆角效果</h1><p>圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导人错误。本文总结整理了一些知识点，概括如下：</p>
+        <h1 id="iOS-高效添加圆角效果"><a href="#iOS-高效添加圆角效果" class="headerlink" title="iOS 高效添加圆角效果"></a>iOS 高效添加圆角效果</h1><p><strong>转载</strong>:<a href="">http://www.jianshu.com/p/f970872fdc22</a><br><strong>作者</strong>:bestswifter</p>
+<p>圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导人错误。本文总结整理了一些知识点，概括如下：</p>
 <ul>
 <li>设置圆角的正确姿势及其原理</li>
 <li>设置圆角的性能损耗</li>

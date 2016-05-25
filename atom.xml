@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-25T08:50:33.000Z</updated>
+  <updated>2016-05-25T08:56:12.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -15,9 +15,10 @@
     <link href="http://yoursite.com//blog/2016/05/iOS-%E9%AB%98%E6%95%88%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E6%95%88%E6%9E%9C.html"/>
     <id>http://yoursite.com//blog/2016/05/iOS-高效添加圆角效果.html</id>
     <published>2016-05-25T08:50:02.000Z</published>
-    <updated>2016-05-25T08:50:33.000Z</updated>
+    <updated>2016-05-25T08:56:12.000Z</updated>
     
-    <content type="html">&lt;h1 id=&quot;iOS-高效添加圆角效果&quot;&gt;&lt;a href=&quot;#iOS-高效添加圆角效果&quot; class=&quot;headerlink&quot; title=&quot;iOS 高效添加圆角效果&quot;&gt;&lt;/a&gt;iOS 高效添加圆角效果&lt;/h1&gt;&lt;p&gt;圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导人错误。本文总结整理了一些知识点，概括如下：&lt;/p&gt;
+    <content type="html">&lt;h1 id=&quot;iOS-高效添加圆角效果&quot;&gt;&lt;a href=&quot;#iOS-高效添加圆角效果&quot; class=&quot;headerlink&quot; title=&quot;iOS 高效添加圆角效果&quot;&gt;&lt;/a&gt;iOS 高效添加圆角效果&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;转载&lt;/strong&gt;:&lt;a href=&quot;&quot;&gt;http://www.jianshu.com/p/f970872fdc22&lt;/a&gt;&lt;br&gt;&lt;strong&gt;作者&lt;/strong&gt;:bestswifter&lt;/p&gt;
+&lt;p&gt;圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导人错误。本文总结整理了一些知识点，概括如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;设置圆角的正确姿势及其原理&lt;/li&gt;
 &lt;li&gt;设置圆角的性能损耗&lt;/li&gt;
@@ -86,7 +87,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;iOS-高效添加圆角效果&quot;&gt;&lt;a href=&quot;#iOS-高效添加圆角效果&quot; class=&quot;headerlink&quot; title=&quot;iOS 高效添加圆角效果&quot;&gt;&lt;/a&gt;iOS 高效添加圆角效果&lt;/h1&gt;&lt;p&gt;圆角（RounderCorner）是一种很常见的视图效果，相
+      &lt;h1 id=&quot;iOS-高效添加圆角效果&quot;&gt;&lt;a href=&quot;#iOS-高效添加圆角效果&quot; class=&quot;headerlink&quot; title=&quot;iOS 高效添加圆角效果&quot;&gt;&lt;/a&gt;iOS 高效添加圆角效果&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;转载&lt;/strong&gt;:&lt;a href=&quot;&quot;
     
     </summary>
     
