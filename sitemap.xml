@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/blog/2016/05/iOS-%E9%AB%98%E6%95%88%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E6%95%88%E6%9E%9C.html</loc>
+    
+    <lastmod>2016-05-25T08:50:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/blog/2016/05/iTerm-2-Oh-My-Zsh.html</loc>
     
-    <lastmod>2016-05-24T12:32:17.000Z</lastmod>
+    <lastmod>2016-05-25T00:46:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/2016/03/Mac-OS-X-%E7%94%A8%E7%BB%88%E7%AB%AF%E7%A0%B4%E8%A7%A3%E9%99%84%E8%BF%91-Wifi-%E5%AF%86%E7%A0%81-1.html</loc>
+    
+    <lastmod>2016-05-25T00:45:15.000Z</lastmod>
     
   </url>
   
@@ -16,13 +30,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/blog/2016/03/Mac-OS-X-%E7%94%A8%E7%BB%88%E7%AB%AF%E7%A0%B4%E8%A7%A3%E9%99%84%E8%BF%91-Wifi-%E5%AF%86%E7%A0%81-1.html</loc>
-    
-    <lastmod>2016-05-24T12:10:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/blog/2016/03/HexoBackup.html</loc>
     
     <lastmod>2016-05-24T05:52:55.000Z</lastmod>
@@ -30,14 +37,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2016-05-24T05:52:55.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2016-05-24T05:52:55.000Z</lastmod>
     
