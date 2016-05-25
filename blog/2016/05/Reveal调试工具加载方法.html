@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Mac," />
+  <meta name="keywords" content="iOS," />
 
 
 
@@ -59,26 +59,26 @@
 
 
 
-<meta name="description" content="转自http://www.jianshu.com/p/7de00c73a2bb 作者:SuperDanny
-一年前，在搞终端的时候偶然一次机会，让我看到了各种强大的DIY界面，这让我很想去自己搞一个。于是在网上不断的寻找资源，也请教了大多数朋友。最终以失败告终。最近，本人又突然想起当时这件事，于是，决定边做笔记，边尝试当初失败的过程。经过一个晚上的时间，终于DIY出我梦寐以求的效果。
-先放上最终D">
+<meta name="description" content="Integrating Reveal without modifying your Xcode project
+reveal: 檢視 iOS app 的 view 結構。给出了如何不用修改Xcode工程就可以加载使用Reveal的方法。在当前用户目录新建一个文件.lldbinit，位于~/.lldbinit，LLDB每次启动的时候都会加载这个文件。在.lldbinit中输入如下内容： 
+12345">
 <meta property="og:type" content="article">
-<meta property="og:title" content="iTerm 2 && Oh My Zsh">
-<meta property="og:url" content="http://yoursite.com/blog/2016/05/iTerm-2-Oh-My-Zsh.html">
+<meta property="og:title" content="Reveal调试工具加载方法">
+<meta property="og:url" content="http://yoursite.com/blog/2016/05/Reveal调试工具加载方法.html">
 <meta property="og:site_name" content="Evilek's-Blog">
-<meta property="og:description" content="转自http://www.jianshu.com/p/7de00c73a2bb 作者:SuperDanny
-一年前，在搞终端的时候偶然一次机会，让我看到了各种强大的DIY界面，这让我很想去自己搞一个。于是在网上不断的寻找资源，也请教了大多数朋友。最终以失败告终。最近，本人又突然想起当时这件事，于是，决定边做笔记，边尝试当初失败的过程。经过一个晚上的时间，终于DIY出我梦寐以求的效果。
-先放上最终D">
-<meta property="og:image" content="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-08177ac961155bb7.png-1.jpeg">
-<meta property="og:image" content="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-eafa2148c1755383-2.jpeg">
-<meta property="og:image" content="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-00c72100725f2407.jpeg">
-<meta property="og:updated_time" content="2016-05-25T00:46:02.000Z">
+<meta property="og:description" content="Integrating Reveal without modifying your Xcode project
+reveal: 檢視 iOS app 的 view 結構。给出了如何不用修改Xcode工程就可以加载使用Reveal的方法。在当前用户目录新建一个文件.lldbinit，位于~/.lldbinit，LLDB每次启动的时候都会加载这个文件。在.lldbinit中输入如下内容： 
+12345">
+<meta property="og:image" content="http://7xti6m.com1.z0.glb.clouddn.com/201601/1464188644996.png">
+<meta property="og:image" content="http://7xti6m.com1.z0.glb.clouddn.com/201601/1464188790348.png">
+<meta property="og:image" content="http://7xti6m.com1.z0.glb.clouddn.com/201601/1464188811160.png">
+<meta property="og:updated_time" content="2016-05-25T15:11:34.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="iTerm 2 && Oh My Zsh">
-<meta name="twitter:description" content="转自http://www.jianshu.com/p/7de00c73a2bb 作者:SuperDanny
-一年前，在搞终端的时候偶然一次机会，让我看到了各种强大的DIY界面，这让我很想去自己搞一个。于是在网上不断的寻找资源，也请教了大多数朋友。最终以失败告终。最近，本人又突然想起当时这件事，于是，决定边做笔记，边尝试当初失败的过程。经过一个晚上的时间，终于DIY出我梦寐以求的效果。
-先放上最终D">
-<meta name="twitter:image" content="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-08177ac961155bb7.png-1.jpeg">
+<meta name="twitter:title" content="Reveal调试工具加载方法">
+<meta name="twitter:description" content="Integrating Reveal without modifying your Xcode project
+reveal: 檢視 iOS app 的 view 結構。给出了如何不用修改Xcode工程就可以加载使用Reveal的方法。在当前用户目录新建一个文件.lldbinit，位于~/.lldbinit，LLDB每次启动的时候都会加载这个文件。在.lldbinit中输入如下内容： 
+12345">
+<meta name="twitter:image" content="http://7xti6m.com1.z0.glb.clouddn.com/201601/1464188644996.png">
 
 
 
@@ -96,7 +96,7 @@
   };
 </script>
 
-  <title> iTerm 2 && Oh My Zsh | Evilek's-Blog </title>
+  <title> Reveal调试工具加载方法 | Evilek's-Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -267,7 +267,7 @@
             
             
               
-                iTerm 2 && Oh My Zsh
+                Reveal调试工具加载方法
               
             
           </h1>
@@ -279,8 +279,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-24T20:01:55+08:00" content="2016-05-24">
-              2016-05-24
+            <time itemprop="dateCreated" datetime="2016-05-25T22:51:24+08:00" content="2016-05-25">
+              2016-05-25
             </time>
           </span>
 
@@ -300,6 +300,18 @@
 
                 
                 
+                  ， 
+                
+
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Blog/Technology/" itemprop="url" rel="index">
+                    <span itemprop="name">Technology</span>
+                  </a>
+                </span>
+
+                
+                
 
               
             </span>
@@ -309,8 +321,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/blog/2016/05/iTerm-2-Oh-My-Zsh.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/05/iTerm-2-Oh-My-Zsh.html" itemprop="commentsCount"></span>
+                <a href="/blog/2016/05/Reveal调试工具加载方法.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/05/Reveal调试工具加载方法.html" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -332,51 +344,28 @@
       
 
       
-        <p><strong>转自</strong><a href="http://www.jianshu.com/p/7de00c73a2bb" target="_blank" rel="external">http://www.jianshu.com/p/7de00c73a2bb</a> 作者:SuperDanny</p>
-<p>一年前，在搞终端的时候偶然一次机会，让我看到了各种强大的DIY界面，这让我很想去自己搞一个。于是在网上不断的寻找资源，也请教了大多数朋友。最终以失败告终。最近，本人又突然想起当时这件事，于是，决定边做笔记，边尝试当初失败的过程。经过一个晚上的时间，终于DIY出我梦寐以求的效果。</p>
-<p><strong>先放上最终DIY效果图：</strong><br><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-08177ac961155bb7.png-1.jpeg" alt="645592-08177ac961155bb7.png"></p>
-<h3 id="下面，我将分步骤讲解我是怎么一步一步完成DIY过程"><a href="#下面，我将分步骤讲解我是怎么一步一步完成DIY过程" class="headerlink" title="下面，我将分步骤讲解我是怎么一步一步完成DIY过程"></a>下面，我将分步骤讲解我是怎么一步一步完成DIY过程</h3><h3 id="1-首先下载-iTerm-2"><a href="#1-首先下载-iTerm-2" class="headerlink" title="1. 首先下载 iTerm 2"></a>1. 首先下载 <a href="http://www.iterm2.com/" target="_blank" rel="external">iTerm 2</a></h3><h3 id="2-打开iTerm-2"><a href="#2-打开iTerm-2" class="headerlink" title="2. 打开iTerm 2"></a>2. 打开iTerm 2</h3><h3 id="3-输入下面指令安装oh-my-zsh"><a href="#3-输入下面指令安装oh-my-zsh" class="headerlink" title="3. 输入下面指令安装oh-my-zsh"></a>3. 输入下面指令安装<a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="external">oh-my-zsh</a></h3><p><code>curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh</code></p>
-<h3 id="4-接下来安装Powerline"><a href="#4-接下来安装Powerline" class="headerlink" title="4. 接下来安装Powerline"></a>4. 接下来安装<a href="http://powerline.readthedocs.org/en/latest/installation.html" target="_blank" rel="external">Powerline</a></h3><p>在官网有教程，我们只需要执行官网第一条安装指令就行</p>
-<p>如果你的终端能够正常执行pip指令，那么直接执行下面的指令可以完成安装</p>
-<p><code>pip install powerline-status</code></p>
-<p>如果没有，则先执行安装pip指令</p>
-<p><code>sudo easy_install pip</code></p>
-<h3 id="5-下载、安装库字体库"><a href="#5-下载、安装库字体库" class="headerlink" title="5. 下载、安装库字体库"></a>5. 下载、安装库<a href="https://github.com/powerline/fonts" target="_blank" rel="external">字体库</a></h3><p>1）将工程下载下来后cd到<code>install.sh</code>文件所在目录</p>
-<p>2）执行指令安装字体库</p>
-<p>执行<code>./install.sh</code>指令安装所有Powerline字体</p>
-<p>安装完成后提示所有字体均已下载到<code>/Users/superdanny/Library/Fonts</code>路径下</p>
-<p>All Powerline fonts installed to /Users/superdanny/Library/Fonts</p>
-<h3 id="6-设置iTerm-2的Regular-Font-和-Non-ASCII-Font"><a href="#6-设置iTerm-2的Regular-Font-和-Non-ASCII-Font" class="headerlink" title="6. 设置iTerm 2的Regular Font 和 Non-ASCII Font"></a>6. 设置iTerm 2的Regular Font 和 Non-ASCII Font</h3><p>安装完字体库之后，把iTerm 2的设置里的<code>Profile</code>中的<code>Text</code> 选项卡中里的<code>Regular Font</code>和<code>Non-ASCII Font</code>的字体都设置成 Powerline的字体，我这里设置的字体是12pt Meslo LG S DZ Regular for Powerline</p>
-<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-eafa2148c1755383-2.jpeg" alt="645592-eafa2148"></p>
-<h3 id="7-配色方案"><a href="#7-配色方案" class="headerlink" title="7. 配色方案"></a>7. 配色方案</h3><p>1）安装<a href="https://github.com/altercation/solarized" target="_blank" rel="external">配色方案</a></p>
-<p>进入刚刚下载的工程的<code>solarized/iterm2-colors-solarized</code> 下双击 <code>Solarized Dark.itermcolors</code> 和 <code>Solarized Light.itermcolors</code> 两个文件就可以把配置文件导入到 iTerm2 里</p>
-<p>2）配置配色方案</p>
-<p>通过load presets选择刚刚安装的配色主题即可</p>
-<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-05-24-645592-00c72100725f2407.jpeg" alt="645592-00c72100725f2407"></p>
-<h3 id="8-使用agnoster主题"><a href="#8-使用agnoster主题" class="headerlink" title="8. 使用agnoster主题"></a>8. 使用agnoster主题</h3><p>1）下载<a href="https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor" target="_blank" rel="external">agnoster</a>主题<br>到下载的工程里面运行install文件,主题将安装到<code>~/.oh-my-zsh/themes</code>目录下</p>
-<p>2）设置该主题<br>进入<code>~/.zshrc</code>打开<code>.zshrc</code>文件，然后将<code>ZSH_THEME</code>后面的字段改为<code>agnoster</code>。<code>ZSH_THEME=&quot;agnoster&quot;</code>（agnoster即为要设置的主题）</p>
-<h3 id="9-增加指令高亮效果——zsh-syntax-highlighting"><a href="#9-增加指令高亮效果——zsh-syntax-highlighting" class="headerlink" title="9. 增加指令高亮效果——zsh-syntax-highlighting"></a>9. 增加指令高亮效果——<a href="https://github.com/zsh-users/zsh-syntax-highlighting" target="_blank" rel="external">zsh-syntax-highlighting</a></h3><p>指令高亮效果作用是当用户输入正确命令时指令会绿色高亮，错误时命令红色高亮</p>
-<p>1）cd到<code>.zshrc</code>所在目录</p>
-<p>2）执行指令将工程克隆到当前目录</p>
-<p><code>git clone git://github.com/zsh-users/zsh-syntax-highlighting.git</code></p>
-<p>3）打开<code>.zshrc</code>文件，在最后添加下面内容</p>
-<p><code>source XXX/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</code></p>
-<p>保存文件。</p>
-<p>注意：<code>xxx</code>代表<code>.zshrc</code>所在目录</p>
-<p>4）<code>cd ~/.oh-my-zsh/custom/plugins</code></p>
-<p>5）再次打开<code>.zshrc</code>文件，在最后面添加下面内容</p>
-<p><code>plugins=(zsh-syntax-highlighting)</code></p>
-<p>保存文件。</p>
-<hr>
-<h2 id="问题解答区"><a href="#问题解答区" class="headerlink" title="问题解答区"></a>问题解答区</h2><ol>
-<li><p>启动iTerm 2 默认使用dash改用zsh解决方法：<br><code>chsh -s /bin/zsh</code></p>
-</li>
-<li><p>执行指令<code>pip install powerline-status</code>出错解决方法：<br>需要下载苹果官方的<a href="https://developer.apple.com/downloads/index.action?name=for%20Xcode%20" target="_blank" rel="external">Command line</a>。必須官方工具下载最新版 Command Line</p>
-</li>
-<li>⌘+Q关闭iTerm 2 时每次弹窗提示问题：<br>iTerm 2 中，进入<code>Preference</code>-<code>General</code>-<code>Closing栏目</code>，将<code>Confirm &quot;Quit iTerm2(⌘Q)&quot; command</code>选项勾选去掉就行</li>
-<li>找不到.zshrc文件问题：<br>我这里将我的.zshrc文件分享出来。供大家下载<a href="http://pan.baidu.com/s/1sk1LqCt" target="_blank" rel="external">网盘</a></li>
-</ol>
-<hr>
+        <p><strong>Integrating Reveal without modifying your Xcode project</strong></p>
+<p><em>reveal: 檢視 iOS app 的 view 結構。</em><br>给出了如何不用修改Xcode工程就可以加载使用Reveal的方法。<br>在当前用户目录新建一个文件.lldbinit，位于~/.lldbinit，LLDB每次启动的时候都会加载这个文件。<br><strong>在.lldbinit中输入如下内容：</strong> </p>
+<figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">command alias reveal_load_sim expr (Class)<span class="built_in">NSClassFromString</span>(<span class="string">@"IBARevealLoader"</span>) == <span class="literal">nil</span> ? (<span class="keyword">void</span> *)dlopen(<span class="string">"/Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/libReveal.dylib"</span>, <span class="number">0x2</span>) : ((<span class="keyword">void</span>*)<span class="number">0</span>) </span><br><span class="line"></span><br><span class="line">command alias reveal_load_dev expr (Class)<span class="built_in">NSClassFromString</span>(<span class="string">@"IBARevealLoader"</span>) == <span class="literal">nil</span> ? (<span class="keyword">void</span>*)dlopen((<span class="keyword">char</span>*)[(<span class="built_in">NSString</span>*)[(<span class="built_in">NSBundle</span>*)[<span class="built_in">NSBundle</span> mainBundle] pathForResource:<span class="string">@"libReveal"</span> ofType:<span class="string">@"dylib"</span>] cStringUsingEncoding:<span class="number">0x4</span>], <span class="number">0x2</span>) : ((<span class="keyword">void</span>*)<span class="number">0</span>) </span><br><span class="line"></span><br><span class="line">command alias reveal_start expr (<span class="keyword">void</span>)[(<span class="built_in">NSNotificationCenter</span>*)[<span class="built_in">NSNotificationCenter</span> defaultCenter] postNotificationName:<span class="string">@"IBARevealRequestStart"</span> object:<span class="literal">nil</span>]; </span><br><span class="line"></span><br><span class="line">command alias reveal_stop expr (<span class="keyword">void</span>)[(<span class="built_in">NSNotificationCenter</span>*)[<span class="built_in">NSNotificationCenter</span> defaultCenter] postNotificationName:<span class="string">@"IBARevealRequestStop"</span> object:<span class="literal">nil</span>];</span><br></pre></td></tr></table></figure>
+<p>上述文件创建了4个命令： </p>
+<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">reveal_load_sim,reveal_load_dev, </span><span class="keyword">reveal_start </span>和 <span class="keyword">reveal_stop</span></span><br></pre></td></tr></table></figure>
+<p>####手动加载调试库<br>在设备起来之后，你就可以断下应用，在LLDB提示框中输入上述的命令了。<br><img src="http://7xti6m.com1.z0.glb.clouddn.com/201601/1464188644996.png" alt=""><br>请注意：只有在iOS应用发出了UIApplicationDidFinishLaunchingNotification通知之后，比如应用的delegate已经处理过application::didFinishLaunchingWithOptions:之后才能调用上面的reveal<em>load</em>*命令，然后再调用reveal_start</p>
+<p><code>reveal_load_sim</code> 这个只在iOS模拟器上有效。它从Reveal的应用程序bundle中找到并加载<code>libReveal.dylib</code>（请确保你把Reveal安装到了系统的 <em>Application</em> 文件夹，如果你换地方了，你修改上述的文件）。</p>
+<p><code>reveal_load_dev</code> 这个命令在iOS设备和模拟器上都有效。不过，它需要你在Build Phase中的的Copy Bundle Resources中加上libReveal.dylib，请确保没有放到<code>Link Binary With Libraries</code>这个地方。</p>
+<p><code>reveal_start</code> 这个命令发出一个通知启动Reveal Server。</p>
+<p><code>reveal_stop</code> 这个命令发出一个通知停止Reveal Server。<br>请注意：只有在iOS应用发出了<code>UIApplicationDidFinishLaunchingNotification</code>通知之后，比如应用的delegate已经处理过<code>application::didFinishLaunchingWithOptions:</code>之后才能调用上面的<code>reveal_load_*</code>命令，然后再调用<code>reveal_start</code><br>在设备起来之后，你就可以断下应用，在LLDB提示框中输入上述的命令了。 </p>
+<p>上述的过程还需要手动输入，下面介绍如何设置条件断点，使得Reveal在启动之后自动加载。<br>在你的应用的<code>application:didFinishLaunchingWithOptions</code>中的代码出加一个断点，然后右键，选择编辑断点。<br>输入如下图一样的命令： </p>
+<p>重新运行下应用，如果控制台输出了如下信息： </p>
+<p><code>Reveal server started.</code></p>
+<p>说明Reveal已经自动成功加载。<br><strong>真机补充:</strong><br>真机调试下需要额外增加如下配置 </p>
+<p>要用Reveal连接真机调试，我们需要先把Reveal的动态链接库上传到真机上。由于iOS设备有沙盒存在，所以我们只能将Reveal的动态链接库添加到工程中。</p>
+<p>点击Reveal菜单栏的”Help”-&gt;”Show Reveal Library in Finder”选项（如下图所示），可以在Finder中显示出Reveal的动态链接库：libReveal.dylib<br><img src="http://7xti6m.com1.z0.glb.clouddn.com/201601/1464188790348.png" alt=""><br>在 Copy Bundle Resources 配置区域中 ，加入<code>libReveal.dylib</code>。<br><img src="http://7xti6m.com1.z0.glb.clouddn.com/201601/1464188811160.png" alt=""></p>
+<p>在Link Binary With Libraries配置项中：<br>如果已有libReveal.dylib，请将其移除——不应在编译时连接dylib文件。<br>如果下列系统框架与库文件还不存在，请将他们加入：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">CFNetwork.framework</span><br><span class="line">QuartzCore.framework</span><br><span class="line">CoreGraphics.framework</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>Xcode一般默认会在工程中包含此框架文件。</li>
+</ul>
+<p>2.进入target的Build Phases标签页，选择Editor → Add Build Phase → Add Run Script菜单。在Run Script阶段中加入以下内容:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> <span class="_">-e</span> <span class="keyword">if</span> [ -n <span class="string">"<span class="variable">$&#123;CODE_SIGN_IDENTITY&#125;</span>"</span> ]; <span class="keyword">then</span> codesign -fs <span class="string">"<span class="variable">$&#123;CODE_SIGN_IDENTITY&#125;</span>"</span> <span class="string">"<span class="variable">$&#123;BUILT_PRODUCTS_DIR&#125;</span>/<span class="variable">$&#123;FULL_PRODUCT_NAME&#125;</span>/libReveal.dylib"</span> <span class="keyword">fi</span></span><br></pre></td></tr></table></figure></p>
+<p>之后用Reveal连接真机的方式和连接模拟器的方式类似，我们只需要把上一节提到的断点Action的内容从<code>reveal_load_sim</code>改成<code>reveal_load_dev</code>即可。</p>
 
       
     </div>
@@ -391,7 +380,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Mac/" rel="tag">#Mac</a>
+            <a href="/tags/iOS/" rel="tag">#iOS</a>
           
         </div>
       
@@ -400,17 +389,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2016/03/Mac-OS-X-用终端破解附近-Wifi-密码-1.html" rel="next" title="Mac OS X 用终端破解附近 Wifi 密码">
-                <i class="fa fa-chevron-left"></i> Mac OS X 用终端破解附近 Wifi 密码
+              <a href="/blog/2016/05/iOS-高效添加圆角效果.html" rel="next" title="iOS 高效添加圆角效果">
+                <i class="fa fa-chevron-left"></i> iOS 高效添加圆角效果
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/blog/2016/05/iOS-高效添加圆角效果.html" rel="prev" title="iOS 高效添加圆角效果">
-                iOS 高效添加圆角效果 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -436,8 +421,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="/blog/2016/05/iTerm-2-Oh-My-Zsh.html"
-           data-title="iTerm 2 && Oh My Zsh" data-url="http://yoursite.com/blog/2016/05/iTerm-2-Oh-My-Zsh.html">
+      <div class="ds-thread" data-thread-key="/blog/2016/05/Reveal调试工具加载方法.html"
+           data-title="Reveal调试工具加载方法" data-url="http://yoursite.com/blog/2016/05/Reveal调试工具加载方法.html">
       </div>
     
   </div>
@@ -556,7 +541,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#下面，我将分步骤讲解我是怎么一步一步完成DIY过程"><span class="nav-number">1.</span> <span class="nav-text">下面，我将分步骤讲解我是怎么一步一步完成DIY过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-首先下载-iTerm-2"><span class="nav-number">2.</span> <span class="nav-text">1. 首先下载 iTerm 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-打开iTerm-2"><span class="nav-number">3.</span> <span class="nav-text">2. 打开iTerm 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-输入下面指令安装oh-my-zsh"><span class="nav-number">4.</span> <span class="nav-text">3. 输入下面指令安装oh-my-zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-接下来安装Powerline"><span class="nav-number">5.</span> <span class="nav-text">4. 接下来安装Powerline</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-下载、安装库字体库"><span class="nav-number">6.</span> <span class="nav-text">5. 下载、安装库字体库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-设置iTerm-2的Regular-Font-和-Non-ASCII-Font"><span class="nav-number">7.</span> <span class="nav-text">6. 设置iTerm 2的Regular Font 和 Non-ASCII Font</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-配色方案"><span class="nav-number">8.</span> <span class="nav-text">7. 配色方案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-使用agnoster主题"><span class="nav-number">9.</span> <span class="nav-text">8. 使用agnoster主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-增加指令高亮效果——zsh-syntax-highlighting"><span class="nav-number">10.</span> <span class="nav-text">9. 增加指令高亮效果——zsh-syntax-highlighting</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#问题解答区"><span class="nav-number"></span> <span class="nav-text">问题解答区</span></a></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
