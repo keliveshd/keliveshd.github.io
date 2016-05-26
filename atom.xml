@@ -5,10 +5,65 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-25T15:11:34.000Z</updated>
+  <updated>2016-05-26T01:06:14.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Injection for Xcode：成吨的提高开发效率</title>
+    <link href="http://yoursite.com//blog/2016/05/Injection-for-Xcode%EF%BC%9A%E6%88%90%E5%90%A8%E7%9A%84%E6%8F%90%E9%AB%98%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87.html"/>
+    <id>http://yoursite.com//blog/2016/05/Injection-for-Xcode：成吨的提高开发效率.html</id>
+    <published>2016-05-26T01:04:28.000Z</published>
+    <updated>2016-05-26T01:06:14.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;strong&gt;转载&lt;/strong&gt;:&lt;a href=&quot;&quot;&gt;http://www.jianshu.com/p/27be46d5e5d4&lt;/a&gt;&lt;br&gt;&lt;strong&gt;作者&lt;/strong&gt;:没故事的卓同学&lt;br&gt;今天强烈推荐一个Xcode高端必备插件：&lt;a href=&quot;https://github.com/johnno1962/injectionforxcode&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt; Injection Plugin for Xcode&lt;/a&gt;&lt;br&gt;直接放demo演示动图：  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-05-26-225849-2774ad82cd157ca0.gif&quot; alt=&quot;225849-2774ad82cd157ca0&quot;&gt;  &lt;/p&gt;
+&lt;p&gt; Injection Plugin for Xcode&lt;/p&gt;
+&lt;p&gt;我很久以前就希望有这么一种功能，直接修改某行代码，F5一下就能刷新这个实例，而不用重写build整个项目。靠夭，我不是在说前端！&lt;br&gt;没想居然有一天，梦想照入现实！！！是的，就是它，不用重新启动应用就可以让修改的代码生效。&lt;/p&gt;
+&lt;h1 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h1&gt;&lt;p&gt;超级简单：修改源码，按下刷新的快捷键&lt;code&gt;ctrl&lt;/code&gt;+&lt;code&gt;=&lt;/code&gt;。会有一个快速的进度条闪过，修改的代码就&lt;strong&gt;生效了。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;可以使用Alcatraz安装&lt;/li&gt;
+&lt;li&gt;或者clone这个项目，运行InjectionPluginLite/InjectionPlugin.xcodeproj。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;检验安装成功&quot;&gt;&lt;a href=&quot;#检验安装成功&quot; class=&quot;headerlink&quot; title=&quot;检验安装成功&quot;&gt;&lt;/a&gt;检验安装成功&lt;/h1&gt;&lt;p&gt;在某个类里添加下面的方法：&lt;/p&gt;
+&lt;figure class=&quot;highlight objectivec&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)injected&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;span class=&quot;built_in&quot;&gt;NSLog&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;@&quot;I&#39;ve been injected: %@&quot;&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;self&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;或者swift下：&lt;/p&gt;
+&lt;figure class=&quot;highlight swift&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;injected&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;span class=&quot;built_in&quot;&gt;print&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;I&#39;ve been injected: (self)&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;打一个断点在这行代码上，按下快捷键ctrl+=后，代码执行到这个类时，如果断点进入这个方法说明你已经安装成功了。&lt;/p&gt;
+&lt;h1 id=&quot;支持Swift&quot;&gt;&lt;a href=&quot;#支持Swift&quot; class=&quot;headerlink&quot; title=&quot;支持Swift&quot;&gt;&lt;/a&gt;支持Swift&lt;/h1&gt;&lt;p&gt;Swift中的大部分类都可以正常使用。不过以下一些情况使用会有问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;结构中的修改&lt;/li&gt;
+&lt;li&gt;标记为final的func和class&lt;/li&gt;
+&lt;li&gt;不在类里的全局函数和变量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;工作原理&quot;&gt;&lt;a href=&quot;#工作原理&quot; class=&quot;headerlink&quot; title=&quot;工作原理&quot;&gt;&lt;/a&gt;工作原理&lt;/h1&gt;&lt;p&gt;Injection是一个Xcode的扩展插件，可以让你修改一个类的代码实现而不用重启整个应用。&lt;/p&gt;
+&lt;p&gt;它通过解析应用的build日志来判断源代码文件上次是怎么被编译的。然后会把这些重新编译一遍包在一个已经通过动态加载器（dynamic loader）注入到应用的bundle里。这个时候其实有两个版本的类在app里，一个原始的和一个修改过的版本。修改过的版本通过和原始类”swizzled”来产生效果。&lt;/p&gt;
+&lt;p&gt;swizzling利用了OC的runtime。这个也可以在Swift中没有标记为final或者private的方法（可以被override的方法）。对结构体无效。&lt;/p&gt;
+&lt;h1 id=&quot;这个插件还可以做点什么&quot;&gt;&lt;a href=&quot;#这个插件还可以做点什么&quot; class=&quot;headerlink&quot; title=&quot;这个插件还可以做点什么&quot;&gt;&lt;/a&gt;这个插件还可以做点什么&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;按照这个文档操作，还可以支持Storyboard &lt;a href=&quot;https://github.com/johnno1962/injectionforxcode/blob/master/documentation/storyboards.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Storyboard-based iOS projects&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;也可以可视化的调整颜色 &lt;a href=&quot;https://github.com/johnno1962/injectionforxcode/blob/master/documentation/tunable_parameters.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;collection of tunable parameters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;当你开始注入时，会在同一个目录下生成一个项目文件：iOSInjectionProject 或者 OSXInjectionProject。这个项目用于注入你的修改到原项目。&lt;strong&gt;建议加入&lt;code&gt;.gitignore&lt;/code&gt;。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;ctrl+=的快捷键可以在 “Tunable App Parameters”面板里自定义&lt;/li&gt;
+&lt;li&gt;如果想在一台设备上使用，参考这个文档&lt;a href=&quot;https://github.com/johnno1962/injectionforxcode/blob/master/documentation/patching_injection.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;patch to your project.&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;我安装时遇到的一个错误&quot;&gt;&lt;a href=&quot;#我安装时遇到的一个错误&quot; class=&quot;headerlink&quot; title=&quot;我安装时遇到的一个错误&quot;&gt;&lt;/a&gt;我安装时遇到的一个错误&lt;/h1&gt;&lt;p&gt;第一次使用，提示我项目里使用的一个第三方framework找不到。这个时候打开它自动生成的iOSInjectionProject，编译一下可以看到错误的具体原因。我看到issue里也好多人遇到。解决方式就是将自己项目framework search paths中的这个第三方框架的路径拷贝到iOSInjectionProject里。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;转载&lt;/strong&gt;:&lt;a href=&quot;&quot;&gt;http://www.jianshu.com/p/27be46d5e5d4&lt;/a&gt;&lt;br&gt;&lt;strong&gt;作者&lt;/strong&gt;:没故事的卓同学&lt;br&gt;今天强烈推荐一个Xcode高端必备插件：&lt;a href=&quot;h
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
+    
+      <category term="Technology" scheme="http://yoursite.com/categories/Blog/Technology/"/>
+    
+    
+      <category term="iOS" scheme="http://yoursite.com/tags/iOS/"/>
+    
+  </entry>
   
   <entry>
     <title>Reveal调试工具加载方法</title>
@@ -62,7 +117,7 @@
     <link href="http://yoursite.com//blog/2016/05/iOS-%E9%AB%98%E6%95%88%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E6%95%88%E6%9E%9C.html"/>
     <id>http://yoursite.com//blog/2016/05/iOS-高效添加圆角效果.html</id>
     <published>2016-05-25T08:50:02.000Z</published>
-    <updated>2016-05-25T14:48:26.000Z</updated>
+    <updated>2016-05-26T01:04:46.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;转载&lt;/strong&gt;:&lt;a href=&quot;&quot;&gt;http://www.jianshu.com/p/f970872fdc22&lt;/a&gt;&lt;br&gt;&lt;strong&gt;作者&lt;/strong&gt;:bestswifter&lt;/p&gt;
 &lt;p&gt;圆角（RounderCorner）是一种很常见的视图效果，相比于直角，它更加柔和优美，易于接受。但很多人并不清楚如何设置圆角的正确方式和原理。设置圆角会带来一定的性能损耗，如何提高性能是另一个需要重点讨论的话题。我查阅了一些现有的资料，收获良多的同时也发现了一些误导人错误。本文总结整理了一些知识点，概括如下：&lt;/p&gt;
