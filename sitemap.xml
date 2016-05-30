@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/blog/2016/05/Apple-Developer%E5%85%AC%E5%8F%B8%E8%B4%A6%E6%88%B7%E6%B3%A8%E5%86%8C%E6%AD%A5%E9%AA%A4.html</loc>
+    
+    <lastmod>2016-05-30T03:05:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/blog/2016/05/Injection-for-Xcode%EF%BC%9A%E6%88%90%E5%90%A8%E7%9A%84%E6%8F%90%E9%AB%98%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87.html</loc>
     
     <lastmod>2016-05-26T01:06:14.000Z</lastmod>
@@ -58,14 +65,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2016-05-24T05:52:55.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2016-05-24T05:52:55.000Z</lastmod>
     
