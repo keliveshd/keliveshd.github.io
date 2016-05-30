@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-30T03:05:05.000Z</updated>
+  <updated>2016-05-30T03:07:54.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -15,14 +15,15 @@
     <link href="http://yoursite.com//blog/2016/05/Apple-Developer%E5%85%AC%E5%8F%B8%E8%B4%A6%E6%88%B7%E6%B3%A8%E5%86%8C%E6%AD%A5%E9%AA%A4.html"/>
     <id>http://yoursite.com//blog/2016/05/Apple-Developer公司账户注册步骤.html</id>
     <published>2016-05-30T02:25:08.000Z</published>
-    <updated>2016-05-30T03:05:05.000Z</updated>
+    <updated>2016-05-30T03:07:54.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;1-注册&quot;&gt;&lt;a href=&quot;#1-注册&quot; class=&quot;headerlink&quot; title=&quot;1.注册&quot;&gt;&lt;/a&gt;1.注册&lt;/h2&gt;&lt;h3 id=&quot;1-1-注册apple-id&quot;&gt;&lt;a href=&quot;#1-1-注册apple-id&quot; class=&quot;headerlink&quot; title=&quot;1.1 注册apple id&quot;&gt;&lt;/a&gt;1.1 注册apple id&lt;/h3&gt;&lt;p&gt;访问 &lt;a href=&quot;https://appleid.apple.com/cn/#!&amp;amp;page=create&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;苹果AppleId注册地址&lt;/a&gt; 按照提示步骤注册。&lt;a href=&quot;https://developer.apple.com/support/enrollment/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;详细注册规则&lt;/a&gt;&lt;br&gt;所需资料:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;* 注册邮箱
+* 密码
+* 姓氏、名字
+* 安全提示问题![2016-05-30_10:37:00.jpg](http://ww1.sinaimg.cn/large/72f96cbagw1f4d7lmpfk4j20rg09u766)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;1-2-开通Organization开发者账号&quot;&gt;&lt;a href=&quot;#1-2-开通Organization开发者账号&quot; class=&quot;headerlink&quot; title=&quot;1.2 开通Organization开发者账号&quot;&gt;&lt;/a&gt;1.2 开通Organization开发者账号&lt;/h3&gt;&lt;p&gt;1.访问 &lt;a href=&quot;https://developer.apple.com/enroll/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Apple Developer Program Enrollment页面&lt;/a&gt;&lt;br&gt;2.登录 1.1 中注册的Apple Id ，在页面中 Entity Type 选项选择 I develop apps as &lt;strong&gt;Company/Organization&lt;/strong&gt; 点击 &lt;em&gt;Continue&lt;/em&gt;&lt;br&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/72f96cbagw1f4d7qd0rwxj21c60pan50&quot; alt=&quot;2016-05-30_10:41:37.jpg&quot;&gt;&lt;br&gt;3.根据提示选择公司类型&lt;br&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/72f96cbagw1f4d7t2ddrfj20q40cwdhf&quot; alt=&quot;2016-05-30_10:43:51.jpg&quot;&gt;&lt;br&gt;4.输入公司资料&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;注册邮箱&lt;/li&gt;
-&lt;li&gt;密码&lt;/li&gt;
-&lt;li&gt;姓氏、名字&lt;/li&gt;
-&lt;li&gt;安全提示问题&lt;img src=&quot;http://ww1.sinaimg.cn/large/72f96cbagw1f4d7lmpfk4j20rg09u766&quot; alt=&quot;2016-05-30_10:37:00.jpg&quot;&gt;&lt;h3 id=&quot;1-2-开通Organization开发者账号&quot;&gt;&lt;a href=&quot;#1-2-开通Organization开发者账号&quot; class=&quot;headerlink&quot; title=&quot;1.2 开通Organization开发者账号&quot;&gt;&lt;/a&gt;1.2 开通Organization开发者账号&lt;/h3&gt;1.访问 &lt;a href=&quot;https://developer.apple.com/enroll/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Apple Developer Program Enrollment页面&lt;/a&gt;&lt;br&gt;2.登录 1.1 中注册的Apple Id ，在页面中 Entity Type 选项选择 I develop apps as &lt;strong&gt;Company/Organization&lt;/strong&gt; 点击 &lt;em&gt;Continue&lt;/em&gt;&lt;br&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/72f96cbagw1f4d7qd0rwxj21c60pan50&quot; alt=&quot;2016-05-30_10:41:37.jpg&quot;&gt;&lt;br&gt;3.根据提示选择公司类型&lt;br&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/72f96cbagw1f4d7t2ddrfj20q40cwdhf&quot; alt=&quot;2016-05-30_10:43:51.jpg&quot;&gt;&lt;br&gt;4.输入公司资料&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;法律实体名称:&lt;/strong&gt;:Legal Entity Name(Include the entity type, such as Inc., LLC, GmbH, etc.)包括实体类型，例如公司，LLC GmbH的等&lt;code&gt;要注册 Apple Developer Program，您的所在组织必须为法人实体，这样才能和 Apple 签订合同。我们不接受 DBA、虚构公司、商号或子公司。法人实体名称将显示为您在 App Store 和 Mac App Store 上分发的 app 的“销售方”。示例：销售方：ABC Company, Inc.&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;邓白氏编码:&lt;/strong&gt; D-U-N-S® Number &lt;a href=&quot;https://developer.apple.com/support/D-U-N-S/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;申请方式&lt;/a&gt;&lt;br&gt;&lt;code&gt;您所在的组织必须拥有 D-U-N-S Number，以便我们验证您所在组织的身份和法人实体状态。这些唯一的九位编码由 Dun &amp;amp; Bradstreet 进行分配，广泛用作标准的企业识别码。&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;法人实体名称&lt;/li&gt;
@@ -31,7 +32,7 @@
 &lt;li&gt;您的工作联系信息&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;网站&lt;/strong&gt;Website&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;网站&lt;/strong&gt; Website&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;##2.开通Apple Developer Program&lt;/p&gt;
 &lt;p&gt;###2.1 定价&lt;/p&gt;
