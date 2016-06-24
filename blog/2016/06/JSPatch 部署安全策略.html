@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo," />
+  <meta name="keywords" content="iOS,JSPatch,热更新," />
 
 
 
@@ -59,61 +59,36 @@
 
 
 
-<meta name="description" content="本地安装hexo步骤注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo安装。
+<meta name="description" content="转载:http://blog.cnbang.net/tech/2879/作者:bang590
+使用 JSPatch 有两个安全问题：
 
-安装Git
+传输安全：JS 脚本可以调用任意 OC 方法，权限非常大，若被中间人攻击替换代码，会造成较大的危害。
+执行安全：下发的 JS 脚本灵活度大，相当于一次小型更新，若未进行充分测试，可能会出现 crash 等情况对 APP 稳定性造成影响。
 
-下载 msysgit 并执行即可完成安装。
-
-
-安装Node.js
-
-在 Windows 环境下安装 Node.js 非常简单，仅须下载安装文件并执行即可完成安装。
-
-
-安装hexo
-
-利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）npm insta">
+接下来说下这两个问题的解">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo Windows安装">
-<meta property="og:url" content="http://yoursite.com/blog/2016/03/Hexo Windows安装.html">
+<meta property="og:title" content="JSPatch 部署安全策略">
+<meta property="og:url" content="http://yoursite.com/blog/2016/06/JSPatch 部署安全策略.html">
 <meta property="og:site_name" content="Evilek's-Blog">
-<meta property="og:description" content="本地安装hexo步骤注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo安装。
+<meta property="og:description" content="转载:http://blog.cnbang.net/tech/2879/作者:bang590
+使用 JSPatch 有两个安全问题：
 
-安装Git
+传输安全：JS 脚本可以调用任意 OC 方法，权限非常大，若被中间人攻击替换代码，会造成较大的危害。
+执行安全：下发的 JS 脚本灵活度大，相当于一次小型更新，若未进行充分测试，可能会出现 crash 等情况对 APP 稳定性造成影响。
 
-下载 msysgit 并执行即可完成安装。
-
-
-安装Node.js
-
-在 Windows 环境下安装 Node.js 非常简单，仅须下载安装文件并执行即可完成安装。
-
-
-安装hexo
-
-利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）npm insta">
-<meta property="og:image" content="http://images2015.cnblogs.com/blog/577880/201602/577880-20160229183347876-960342404.png">
-<meta property="og:image" content="http://pic.yupoo.com/vankos_v/DKgbA7WH/wLVyM.png">
-<meta property="og:updated_time" content="2016-05-24T12:11:15.000Z">
+接下来说下这两个问题的解">
+<meta property="og:image" content="http://blog.cnbang.net/wp-content/uploads/2015/08/JSPatchSecurity.png">
+<meta property="og:updated_time" content="2016-06-24T04:25:31.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo Windows安装">
-<meta name="twitter:description" content="本地安装hexo步骤注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo安装。
+<meta name="twitter:title" content="JSPatch 部署安全策略">
+<meta name="twitter:description" content="转载:http://blog.cnbang.net/tech/2879/作者:bang590
+使用 JSPatch 有两个安全问题：
 
-安装Git
+传输安全：JS 脚本可以调用任意 OC 方法，权限非常大，若被中间人攻击替换代码，会造成较大的危害。
+执行安全：下发的 JS 脚本灵活度大，相当于一次小型更新，若未进行充分测试，可能会出现 crash 等情况对 APP 稳定性造成影响。
 
-下载 msysgit 并执行即可完成安装。
-
-
-安装Node.js
-
-在 Windows 环境下安装 Node.js 非常简单，仅须下载安装文件并执行即可完成安装。
-
-
-安装hexo
-
-利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）npm insta">
-<meta name="twitter:image" content="http://images2015.cnblogs.com/blog/577880/201602/577880-20160229183347876-960342404.png">
+接下来说下这两个问题的解">
+<meta name="twitter:image" content="http://blog.cnbang.net/wp-content/uploads/2015/08/JSPatchSecurity.png">
 
 
 
@@ -131,7 +106,7 @@
   };
 </script>
 
-  <title> Hexo Windows安装 | Evilek's-Blog </title>
+  <title> JSPatch 部署安全策略 | Evilek's-Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -301,7 +276,7 @@
             
             
               
-                Hexo Windows安装
+                JSPatch 部署安全策略
               
             
           </h1>
@@ -313,38 +288,19 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-03-06T01:10:17+08:00" content="2016-03-06">
-              2016-03-06
+            <time itemprop="dateCreated" datetime="2016-06-24T12:22:55+08:00" content="2016-06-24">
+              2016-06-24
             </time>
           </span>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Blog/" itemprop="url" rel="index">
-                    <span itemprop="name">Blog</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/blog/2016/03/Hexo Windows安装.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/03/Hexo Windows安装.html" itemprop="commentsCount"></span>
+                <a href="/blog/2016/06/JSPatch 部署安全策略.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/06/JSPatch 部署安全策略.html" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -366,51 +322,39 @@
       
 
       
-        <h1 id="本地安装hexo步骤"><a href="#本地安装hexo步骤" class="headerlink" title="本地安装hexo步骤"></a>本地安装hexo步骤</h1><p>注意：本节教程只针对Windows用户，Linux和Mac用户请移步hexo安装。</p>
-<ul>
-<li><p>安装Git</p>
-<blockquote>
-<p>下载 msysgit 并执行即可完成安装。</p>
-</blockquote>
-</li>
-<li><p>安装Node.js</p>
-<blockquote>
-<p>在 Windows 环境下安装 Node.js 非常简单，仅须下载安装文件并执行即可完成安装。</p>
-</blockquote>
-</li>
-<li><p>安装hexo</p>
-<blockquote>
-<p>利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）<br>npm install -g hexo<br>安装完成后，在你喜爱的文件夹下（如H:\hexo），执行以下指令(在H:\hexo内点击鼠标右键，选择Git bash)，Hexo 即会自动在目标文件夹建立网站所需要的所有文件。创建hexo文件夹<br>hexo init<br>安装依赖包<br>本地查看</p>
-</blockquote>
-</li>
-</ul>
-<p>现在我们已经搭建起本地的hexo博客了，执行以下命令(在H:\hexo)，然后到浏览器输入localhost:4000看看。<br>hexo generate<br>hexo server<br>好了，至此，本地博客已经搭建起来了，只是本地哦，别人看不到的。下面，我们要部署到Github。</p>
-<h1 id="提交hexo到github步骤"><a href="#提交hexo到github步骤" class="headerlink" title="提交hexo到github步骤"></a>提交hexo到github步骤</h1><ul>
-<li><p>注册Github账号</p>
-<blockquote>
-<p>已有账号可以跳过，没有的，请在此进行注册，很简单，这里就不介绍了。</p>
-</blockquote>
-</li>
-<li><p>创建repository</p>
-<blockquote>
-<p>在自己Github主页右下角，创建一个新的repository。比如我的Github账号是imsofter，那么我应该创建的repository名字应该是imsofter.github.io。</p>
-</blockquote>
-</li>
-<li><p>部署</p>
-<blockquote>
-<p>编辑_config.yml(在H:\hexo下)。你在部署时，要把下面的zippera都换成你的账号名。<br>deploy:<br>type: github<br>repository: <span class="Apple-converted-space"></span> <a href="https://github.com/imsofter/imsofter.github.io.git" target="_blank" rel="external">https://github.com/imsofter/imsofter.github.io.git</a><br>branch: master<br>执行下列指令即可完成部署。据说最新版本的hexo 中，这里的 type 要写成 git，而不是 github。<br>hexo generate<br>hexo deploy<br>记住：每次修改本地文件后，需要hexo generate才能保存。每次使用命令时，都要在H:\hexo目录下。注意：有些新用户需要设置 ssh，否则上述命令会失败。ssh 的介绍和设置方法请看官方教程，不用担心，很简单。<br>Okay,我们的博客已经完全搭建起来了，在浏览器访问zippera.github.io就能看到你的成就了！</p>
-</blockquote>
-</li>
-</ul>
-<h1 id="以下为安装出问题的总结"><a href="#以下为安装出问题的总结" class="headerlink" title="以下为安装出问题的总结"></a>以下为安装出问题的总结</h1><h2 id="安装hexo后，bash-hexo-command-not-found"><a href="#安装hexo后，bash-hexo-command-not-found" class="headerlink" title="安装hexo后，bash: hexo: command not found"></a>安装hexo后，bash: hexo: command not found</h2><p>找到C:\Users\Administrator\AppData\Roaming\npm\node_modules\hexo\bin\，将此目录添加到环境变量中</p>
-<h2 id="执行-hexo-deploy-后-出现-error-deployer-not-found-github-的错误"><a href="#执行-hexo-deploy-后-出现-error-deployer-not-found-github-的错误" class="headerlink" title="执行 hexo deploy 后,出现 error deployer not found:github 的错误"></a>执行 hexo deploy 后,出现 error deployer not found:github 的错误</h2><p>hexo 更新到3.0之后，deploy的type 的github需要改成git<br>repository路径: <span class="Apple-converted-space"></span> <a href="http://github.com/imsofter/imsofter.github.io.git" target="_blank" rel="external">http://github.com/imsofter/imsofter.github.io.git</a> <span class="Apple-converted-space"></span> （需要将https修改成http）还不行的话尝试<br>git@github.com:imsofter/imsofter.github.io.git路径<br>改了之后执行npm install hexo-deployer-git –save 安装hexo对于git的部署工具。</p>
-<p>然后再部署试试</p>
-<h2 id="验证报错报错verification-failed："><a href="#验证报错报错verification-failed：" class="headerlink" title="验证报错报错verification failed："></a>验证报错报错verification failed：</h2><p>Error: Host key verification failed.<br>fatal: Could not read from remote repository.<br>Please make sure you have the correct access rights and the repository exists.</p>
-<p>解决方法：条件SSHkey<br>$ ssh-keygen -t rsa -C “imsofter@163.com”<br>三次回车，即可设置密码为空</p>
-<p>将生成的C:\Users\Administrator.ssh目录下的id_rsa.pub添加到github上<br><img src="http://images2015.cnblogs.com/blog/577880/201602/577880-20160229183347876-960342404.png" alt=""></p>
-<p>再测试是否可以连接到github上，<br>$ ssh git@github.com<br>Hi imsofter! You’ve successfully authenticated, but GitHub does not provide shell access.<br>Connection to github.com closed.</p>
-<p>再可以将代码推上github上了。</p>
-<h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>在source目录下创建CNAME文件<br>DNS设置<br>用DNSpod，快，免费，稳定。<br>注册DNSpod，添加域名，如下图设置。<br><img src="http://pic.yupoo.com/vankos_v/DKgbA7WH/wLVyM.png" alt=""><br>其中A的两条记录指向的ip地址是github Pages的提供的ip<br>192.30.252.153<br>192.30.252.154</p>
+        <p><strong>转载</strong>:<a href="">http://blog.cnbang.net/tech/2879/</a><br><strong>作者</strong>:bang590</p>
+<p>使用 <a href="https://github.com/bang590/JSPatch" target="_blank" rel="external">JSPatch</a> 有两个安全问题：</p>
+<ol>
+<li>传输安全：JS 脚本可以调用任意 OC 方法，权限非常大，若被中间人攻击替换代码，会造成较大的危害。</li>
+<li>执行安全：下发的 JS 脚本灵活度大，相当于一次小型更新，若未进行充分测试，可能会出现 crash 等情况对 APP 稳定性造成影响。</li>
+</ol>
+<p>接下来说下这两个问题的解决方案。</p>
+<h2 id="传输安全"><a href="#传输安全" class="headerlink" title="传输安全"></a>传输安全</h2><h3 id="方案一：对称加密"><a href="#方案一：对称加密" class="headerlink" title="方案一：对称加密"></a>方案一：对称加密</h3><p>若要让 JS 代码传输过程中不轻易被中间人截获替换，很容易想到的方式就是对代码进行加密，可以用 zip 的加密压缩，也可以用 AES 等加密算法。这个方案的优点是非常简单，缺点是安全性低，容易被破解。因为密钥是要保存在客户端的，只要客户端被人拿去反编译，把密码字段找出来，就完成破解了。</p>
+<p>对此也有一些改进方案，例如：</p>
+<p>1.可以把密码保存到 keychain 上，但这种方式也是不可靠的，只要随便找一台机器越狱装了这个 APP，用 hook 的方式在 APP 上添加一些代码，获得 keychain 里的密钥值，就可以用于其他所有机器的传输解密了。</p>
+<p>2.给每个用户下发不同的密钥。但这样就非常繁琐，需要对下发密钥的请求做好保护，后台需要每次都对脚本进行不同密钥的加密操作，复杂性高了。</p>
+<p>综上，对称加密安全性低，若要稍微提高点安全性，就会提升程序复杂度。</p>
+<h3 id="方案二：HTTPS"><a href="#方案二：HTTPS" class="headerlink" title="方案二：HTTPS"></a>方案二：HTTPS</h3><p>第二个方案是直接使用 HTTPS 传输，优点是安全性高，只要使用正确，证书在服务端未泄露，就不会被破解。缺点是部署麻烦，需要使用者服务器支持 HTTPS，门槛较高。另外客户端需要做好 HTTPS 的证书验证（有些使用者可能会漏掉这个验证，导致安全性大降），具体的认证方式可见网上一些文章，例如<a href="http://oncenote.com/2014/10/21/Security-1-HTTPS/" target="_blank" rel="external">这篇</a>。如果服务器本来就支持 HTTPS，使用这种方案也是一种不错的选择。</p>
+<h3 id="方案三：RSA-校验"><a href="#方案三：RSA-校验" class="headerlink" title="方案三：RSA 校验"></a>方案三：RSA 校验</h3><p>有没有安全性高，部署简单，门槛低的方案？RSA 校验就是。</p>
+<p>这种方式属于数字签名，用了跟 HTTPS 一样的非对称加密，只是简化了，把非对称加密只用于校验文件，而不解决传输过程中数据内容泄露的问题，而我们的目的只是防止传输过程中数据被篡改，对于数据内容泄露并不是太在意。整个校验过程如下：</p>
+<p><a href="http://blog.cnbang.net/wp-content/uploads/2015/08/JSPatchSecurity.png" target="_blank" rel="external"><img src="http://blog.cnbang.net/wp-content/uploads/2015/08/JSPatchSecurity.png" alt="JSPatchSecurity"></a></p>
+<ol>
+<li>服务端计算出脚本文件的 MD5 值，作为这个文件的数字签名。</li>
+<li>服务端通过私钥加密第 1 步算出的 MD5 值，得到一个加密后的 MD5 值。</li>
+<li>把脚本文件和加密后的 MD5 值一起下发给客户端。</li>
+<li>客户端拿到加密后的 MD5 值，通过保存在客户端的公钥解密。</li>
+<li>客户端计算脚本文件的 MD5 值。</li>
+<li>对比第 4/5 步的两个 MD5 值（分别是客户端和服务端计算出来的 MD5 值），若相等则通过校验。</li>
+</ol>
+<p>只要通过校验，就能确保脚本在传输的过程中没有被篡改，因为第三方若要篡改脚本文件，必须计算出新的脚本文件 MD5 并用私钥加密，客户端公钥才能解密出这个 MD5 值，而在服务端未泄露的情况下第三方是拿不到私钥的。</p>
+<p>这种方案安全性跟 HTTPS 一致，但不像 HTTPS 一样部署麻烦，一套代码即可通用。对于它的缺点：数据内容泄露，其实在传输过程中不泄露，保存在本地同样会泄露，若对此在意，可以对脚本文件再加一层简单的对称加密。这个方案优点多缺点少，推荐使用，目前 <a href="http://jspatch.com" target="_blank" rel="external">JSPatch 平台</a>就是使用这个方案。</p>
+<p>最后有个小问题，保存在客户端的代码也可能被人篡改，需不需要采取措施？这个要看各人需求了，因为这个安全问题不大，能篡改本地文件，差不多已经有手机所有权限了，这时也无所谓脚本会不会被篡改了。若有需要，可以加个简单的对称加密，或者按上述流程每次都验证一遍MD5值。</p>
+<h2 id="执行安全"><a href="#执行安全" class="headerlink" title="执行安全"></a>执行安全</h2><p>对于中大型 APP，下发 JS 脚本需要谨慎，有可能因为疏忽下发了有问题的代码，导致大量 APP crash，或一些其他异常情况，需要有一些机制避免这种情况。若要做得完整，可以分为：事发前(灰度)，事发中(监控)，事发后(回退)。</p>
+<h3 id="灰度"><a href="#灰度" class="headerlink" title="灰度"></a>灰度</h3><p>首先需要在事发前把出现问题的影响面降到最低，对于中大型 APP，不能一次把脚本下发给所有用户，需要有灰度机制，也就是一开始只下发给其中一部分用户，看看会不会出现异常情况，再逐步覆盖到所有用户。有条件的话灰度的用户最好按机型/系统/地域等属性随机分配，尽量让最少的人覆盖到大部分情况。</p>
+<h3 id="监控"><a href="#监控" class="headerlink" title="监控"></a>监控</h3><p>接着是事发了我们需要知道脚本有问题，需要对 APP 有一些监控机制，像 crash 监控，这个一般所有 APP 都有接入，再按需求自行加入其他监控指标。</p>
+<h3 id="回退"><a href="#回退" class="headerlink" title="回退"></a>回退</h3><p>最后是事发后回退代码。一般为了避免不可预料的情况出现，JSPatch 脚本建议在启动时执行，APP 运行过程中不去除，所以这个回退建议的实现方式是后台下发命令，让 APP 在下次启动时不执行 JSPatch 脚本即可。</p>
+<p>但这里能回退的前提是 APP 可以接收到后台下发的回退命令，若因为下发的脚本导致 APP 启动即时 crash，这个回退命令也会接收不到。所以建议再加一层防启动 crash 的机制，APP 在连续启动即 crash 后，下次启动不再执行脚本文件。</p>
+<p>灰度和监控中小型 APP 可以考虑不用，回退机制是每个使用 JSPatch 都建议加上的。目前 <a href="http://jspatch.com" target="_blank" rel="external">JSPatch 平台</a>实现了上述回退方案。</p>
 
       
     </div>
@@ -425,7 +369,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo/" rel="tag">#Hexo</a>
+            <a href="/tags/iOS/" rel="tag">#iOS</a>
+          
+            <a href="/tags/JSPatch/" rel="tag">#JSPatch</a>
+          
+            <a href="/tags/热更新/" rel="tag">#热更新</a>
           
         </div>
       
@@ -434,13 +382,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/blog/2016/05/Apple-Developer公司账户注册步骤.html" rel="next" title="Apple Developer公司账户注册步骤">
+                <i class="fa fa-chevron-left"></i> Apple Developer公司账户注册步骤
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/blog/2016/03/HexoBackup.html" rel="prev" title="Hexo备份与搭建">
-                Hexo备份与搭建 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -466,8 +414,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="/blog/2016/03/Hexo Windows安装.html"
-           data-title="Hexo Windows安装" data-url="http://yoursite.com/blog/2016/03/Hexo Windows安装.html">
+      <div class="ds-thread" data-thread-key="/blog/2016/06/JSPatch 部署安全策略.html"
+           data-title="JSPatch 部署安全策略" data-url="http://yoursite.com/blog/2016/06/JSPatch 部署安全策略.html">
       </div>
     
   </div>
@@ -586,7 +534,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#本地安装hexo步骤"><span class="nav-number">1.</span> <span class="nav-text">本地安装hexo步骤</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#提交hexo到github步骤"><span class="nav-number">2.</span> <span class="nav-text">提交hexo到github步骤</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#以下为安装出问题的总结"><span class="nav-number">3.</span> <span class="nav-text">以下为安装出问题的总结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo后，bash-hexo-command-not-found"><span class="nav-number">3.1.</span> <span class="nav-text">安装hexo后，bash: hexo: command not found</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#执行-hexo-deploy-后-出现-error-deployer-not-found-github-的错误"><span class="nav-number">3.2.</span> <span class="nav-text">执行 hexo deploy 后,出现 error deployer not found:github 的错误</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#验证报错报错verification-failed："><span class="nav-number">3.3.</span> <span class="nav-text">验证报错报错verification failed：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#绑定域名"><span class="nav-number">3.4.</span> <span class="nav-text">绑定域名</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#传输安全"><span class="nav-number">1.</span> <span class="nav-text">传输安全</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#方案一：对称加密"><span class="nav-number">1.1.</span> <span class="nav-text">方案一：对称加密</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方案二：HTTPS"><span class="nav-number">1.2.</span> <span class="nav-text">方案二：HTTPS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方案三：RSA-校验"><span class="nav-number">1.3.</span> <span class="nav-text">方案三：RSA 校验</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#执行安全"><span class="nav-number">2.</span> <span class="nav-text">执行安全</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#灰度"><span class="nav-number">2.1.</span> <span class="nav-text">灰度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#监控"><span class="nav-number">2.2.</span> <span class="nav-text">监控</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#回退"><span class="nav-number">2.3.</span> <span class="nav-text">回退</span></a></li></ol></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
