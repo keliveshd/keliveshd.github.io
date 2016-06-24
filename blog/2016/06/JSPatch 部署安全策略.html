@@ -77,8 +77,8 @@
 执行安全：下发的 JS 脚本灵活度大，相当于一次小型更新，若未进行充分测试，可能会出现 crash 等情况对 APP 稳定性造成影响。
 
 接下来说下这两个问题的解">
-<meta property="og:image" content="http://blog.cnbang.net/wp-content/uploads/2015/08/JSPatchSecurity.png">
-<meta property="og:updated_time" content="2016-06-24T04:25:31.000Z">
+<meta property="og:image" content="http://7xti6m.com1.z0.glb.clouddn.com/2016-06-24_12:36:30.jpg">
+<meta property="og:updated_time" content="2016-06-24T04:37:50.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JSPatch 部署安全策略">
 <meta name="twitter:description" content="转载:http://blog.cnbang.net/tech/2879/作者:bang590
@@ -88,7 +88,7 @@
 执行安全：下发的 JS 脚本灵活度大，相当于一次小型更新，若未进行充分测试，可能会出现 crash 等情况对 APP 稳定性造成影响。
 
 接下来说下这两个问题的解">
-<meta name="twitter:image" content="http://blog.cnbang.net/wp-content/uploads/2015/08/JSPatchSecurity.png">
+<meta name="twitter:image" content="http://7xti6m.com1.z0.glb.clouddn.com/2016-06-24_12:36:30.jpg">
 
 
 
@@ -337,7 +337,7 @@
 <h3 id="方案二：HTTPS"><a href="#方案二：HTTPS" class="headerlink" title="方案二：HTTPS"></a>方案二：HTTPS</h3><p>第二个方案是直接使用 HTTPS 传输，优点是安全性高，只要使用正确，证书在服务端未泄露，就不会被破解。缺点是部署麻烦，需要使用者服务器支持 HTTPS，门槛较高。另外客户端需要做好 HTTPS 的证书验证（有些使用者可能会漏掉这个验证，导致安全性大降），具体的认证方式可见网上一些文章，例如<a href="http://oncenote.com/2014/10/21/Security-1-HTTPS/" target="_blank" rel="external">这篇</a>。如果服务器本来就支持 HTTPS，使用这种方案也是一种不错的选择。</p>
 <h3 id="方案三：RSA-校验"><a href="#方案三：RSA-校验" class="headerlink" title="方案三：RSA 校验"></a>方案三：RSA 校验</h3><p>有没有安全性高，部署简单，门槛低的方案？RSA 校验就是。</p>
 <p>这种方式属于数字签名，用了跟 HTTPS 一样的非对称加密，只是简化了，把非对称加密只用于校验文件，而不解决传输过程中数据内容泄露的问题，而我们的目的只是防止传输过程中数据被篡改，对于数据内容泄露并不是太在意。整个校验过程如下：</p>
-<p><a href="http://blog.cnbang.net/wp-content/uploads/2015/08/JSPatchSecurity.png" target="_blank" rel="external"><img src="http://blog.cnbang.net/wp-content/uploads/2015/08/JSPatchSecurity.png" alt="JSPatchSecurity"></a></p>
+<p><a href="http://7xti6m.com1.z0.glb.clouddn.com/2016-06-24_12:36:30.jpg" target="_blank" rel="external"><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-06-24_12:36:30.jpg" alt="JSPatchSecurity"></a></p>
 <ol>
 <li>服务端计算出脚本文件的 MD5 值，作为这个文件的数字签名。</li>
 <li>服务端通过私钥加密第 1 步算出的 MD5 值，得到一个加密后的 MD5 值。</li>
