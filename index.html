@@ -264,6 +264,164 @@
             
               
                 
+                <a class="post-title-link" href="/blog/2016/07/用debian-chroot-在群晖上搭建debian环境-跑debian程序.html" itemprop="url">
+                  用debian chroot 在群晖上搭建debian环境 跑debian程序
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-02T10:51:38+08:00" content="2016-07-02">
+              2016-07-02
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Blog/" itemprop="url" rel="index">
+                    <span itemprop="name">Blog</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Blog/Technology/" itemprop="url" rel="index">
+                    <span itemprop="name">Technology</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/blog/2016/07/用debian-chroot-在群晖上搭建debian环境-跑debian程序.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/07/用debian-chroot-在群晖上搭建debian环境-跑debian程序.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><strong>转载</strong>:<a href="">http://tieba.baidu.com/p/3257838822</a><br><strong>作者</strong>:蜜色橙汁</p>
+<p>软件源还是   </p>
+<p><a href="http://jump.bdimg.com/safecheck/index?url=x+Z5mMbGPAuTjGjGxoW2/36kGlcxK9dKDaA8DPdGG7cdlC7k6dkLZiXmjTJUxZq8Tg5nEYEPDRaZt/u7LzwaH5Gr1xoMwr0c/q97QyuYPD5vPEOMIyyBrNzWmlJHfq+GDdCVu6Yz01UwPGbuJnYGNA==" target="_blank" rel="external">http://packages.synocommunity.com/</a><br>勾beta是必须的   </p>
+<p>然后安装synocommunity提供的py<br><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:54:52.jpg" alt="2016-07-02_10:54:52.jpg"></p>
+<p>py显示已安装。。。  </p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:55:27.jpg" alt="2016-07-02_10:55:27.jpg"></p>
+<p>接下来安装debian chroot<br><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:06.jpg" alt="2016-07-02_10:56:06.jpg"></p>
+<p>安装。。。。  </p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:23.jpg" alt="2016-07-02_10:56:23.jpg"></p>
+<p>要启动下。。。  </p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:29.jpg" alt="2016-07-02_10:56:29.jpg"></p>
+<p>装完了   ui反正也没啥用的   </p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:35.jpg" alt="2016-07-02_10:56:35.jpg"><br>额 这个不用说了吧  </p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:40.jpg" alt="2016-07-02_10:56:40.jpg"></p>
+<p>登录之后去chroot咯  </p>
+<p>/var/packages/debian-chroot/scripts/start-stop-status chroot  </p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:51.jpg" alt="2016-07-02_10:56:51.jpg"><br>报错  local问题  不管它先  </p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:58.jpg" alt="2016-07-02_10:56:58.jpg"><br>这样就进入debian了  </p>
+<p>爽吧 进debian先干嘛<br>apt-get update是必须的  </p>
+<p>要解决local问题 安装个软件。。  </p>
+<p>apt-get install locales  </p>
+<p>然后config下。。  </p>
+<p>dpkg-reconfigure locales  </p>
+<p>选中zh_CN.UTF-8以及en_US.UTF-8<br><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:57:13.jpg" alt="2016-07-02_10:57:13.jpg"> </p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:57:22.jpg" alt="2016-07-02_10:57:22.jpg"></p>
+<p>记得default 用en us<br><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:57:28.jpg" alt="2016-07-02_10:57:28.jpg"></p>
+<p>一会就好了<br><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:57:35.jpg" alt="2016-07-02_10:57:35.jpg"></p>
+<p>exit   </p>
+<p>退出chroot<br>reboot<br>过一会再chroot登进去  </p>
+<p>没有错误鸟！！！！成功把修改版的群晖linux   弄成了debian环境   爱干啥干啥  爱编译编译 想装<a href="http://jump.bdimg.com/safecheck/index?url=rN3wPs8te/pL4AOY0zAwhz3wi8AXlR5gsMEbyYdIw62fUtP+itzmiiJjrlJfaGyHXrFKr4XEc/oV0rsM/W/ehK2oFpmdY3q9V0LsaDl4ULFHMh8xCQ87m6Kg6ASCn+KYme6h38c+aB54uI4NlV/M6LDtuWOqAkGbNef8C6xyqN1X2Qbo/vKBFHY9qHh6BM0y" target="_blank" rel="external">gcc</a>就装gcc  tr rt de 想跑啥跑啥 </p>
+<p>不过 非x86机器 debian软件也是基本木有的哦  </p>
+<p><img src="http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:57:40.jpg" alt="2016-07-02_10:57:40.jpg"></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/blog/2016/06/JSPatch 部署安全策略.html" itemprop="url">
                   JSPatch 部署安全策略
                 </a>
@@ -283,6 +441,37 @@
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Blog/" itemprop="url" rel="index">
+                    <span itemprop="name">Blog</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Blog/Technology/" itemprop="url" rel="index">
+                    <span itemprop="name">Technology</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
@@ -1674,7 +1863,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">9</span>
+              <span class="site-state-item-count">10</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1691,7 +1880,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

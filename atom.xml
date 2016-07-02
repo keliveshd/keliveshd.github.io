@@ -5,17 +5,75 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-24T04:37:50.000Z</updated>
+  <updated>2016-07-02T02:59:32.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用debian chroot 在群晖上搭建debian环境 跑debian程序</title>
+    <link href="http://yoursite.com//blog/2016/07/%E7%94%A8debian-chroot-%E5%9C%A8%E7%BE%A4%E6%99%96%E4%B8%8A%E6%90%AD%E5%BB%BAdebian%E7%8E%AF%E5%A2%83-%E8%B7%91debian%E7%A8%8B%E5%BA%8F.html"/>
+    <id>http://yoursite.com//blog/2016/07/用debian-chroot-在群晖上搭建debian环境-跑debian程序.html</id>
+    <published>2016-07-02T02:51:38.000Z</published>
+    <updated>2016-07-02T02:59:32.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;strong&gt;转载&lt;/strong&gt;:&lt;a href=&quot;&quot;&gt;http://tieba.baidu.com/p/3257838822&lt;/a&gt;&lt;br&gt;&lt;strong&gt;作者&lt;/strong&gt;:蜜色橙汁&lt;/p&gt;
+&lt;p&gt;软件源还是   &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jump.bdimg.com/safecheck/index?url=x+Z5mMbGPAuTjGjGxoW2/36kGlcxK9dKDaA8DPdGG7cdlC7k6dkLZiXmjTJUxZq8Tg5nEYEPDRaZt/u7LzwaH5Gr1xoMwr0c/q97QyuYPD5vPEOMIyyBrNzWmlJHfq+GDdCVu6Yz01UwPGbuJnYGNA==&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://packages.synocommunity.com/&lt;/a&gt;&lt;br&gt;勾beta是必须的   &lt;/p&gt;
+&lt;p&gt;然后安装synocommunity提供的py&lt;br&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:54:52.jpg&quot; alt=&quot;2016-07-02_10:54:52.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;py显示已安装。。。  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:55:27.jpg&quot; alt=&quot;2016-07-02_10:55:27.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;接下来安装debian chroot&lt;br&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:06.jpg&quot; alt=&quot;2016-07-02_10:56:06.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;安装。。。。  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:23.jpg&quot; alt=&quot;2016-07-02_10:56:23.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;要启动下。。。  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:29.jpg&quot; alt=&quot;2016-07-02_10:56:29.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;装完了   ui反正也没啥用的   &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:35.jpg&quot; alt=&quot;2016-07-02_10:56:35.jpg&quot;&gt;&lt;br&gt;额 这个不用说了吧  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:40.jpg&quot; alt=&quot;2016-07-02_10:56:40.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;登录之后去chroot咯  &lt;/p&gt;
+&lt;p&gt;/var/packages/debian-chroot/scripts/start-stop-status chroot  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:51.jpg&quot; alt=&quot;2016-07-02_10:56:51.jpg&quot;&gt;&lt;br&gt;报错  local问题  不管它先  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:56:58.jpg&quot; alt=&quot;2016-07-02_10:56:58.jpg&quot;&gt;&lt;br&gt;这样就进入debian了  &lt;/p&gt;
+&lt;p&gt;爽吧 进debian先干嘛&lt;br&gt;apt-get update是必须的  &lt;/p&gt;
+&lt;p&gt;要解决local问题 安装个软件。。  &lt;/p&gt;
+&lt;p&gt;apt-get install locales  &lt;/p&gt;
+&lt;p&gt;然后config下。。  &lt;/p&gt;
+&lt;p&gt;dpkg-reconfigure locales  &lt;/p&gt;
+&lt;p&gt;选中zh_CN.UTF-8以及en_US.UTF-8&lt;br&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:57:13.jpg&quot; alt=&quot;2016-07-02_10:57:13.jpg&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:57:22.jpg&quot; alt=&quot;2016-07-02_10:57:22.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;记得default 用en us&lt;br&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:57:28.jpg&quot; alt=&quot;2016-07-02_10:57:28.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;一会就好了&lt;br&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:57:35.jpg&quot; alt=&quot;2016-07-02_10:57:35.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;exit   &lt;/p&gt;
+&lt;p&gt;退出chroot&lt;br&gt;reboot&lt;br&gt;过一会再chroot登进去  &lt;/p&gt;
+&lt;p&gt;没有错误鸟！！！！成功把修改版的群晖linux   弄成了debian环境   爱干啥干啥  爱编译编译 想装&lt;a href=&quot;http://jump.bdimg.com/safecheck/index?url=rN3wPs8te/pL4AOY0zAwhz3wi8AXlR5gsMEbyYdIw62fUtP+itzmiiJjrlJfaGyHXrFKr4XEc/oV0rsM/W/ehK2oFpmdY3q9V0LsaDl4ULFHMh8xCQ87m6Kg6ASCn+KYme6h38c+aB54uI4NlV/M6LDtuWOqAkGbNef8C6xyqN1X2Qbo/vKBFHY9qHh6BM0y&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;gcc&lt;/a&gt;就装gcc  tr rt de 想跑啥跑啥 &lt;/p&gt;
+&lt;p&gt;不过 非x86机器 debian软件也是基本木有的哦  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xti6m.com1.z0.glb.clouddn.com/2016-07-02_10:57:40.jpg&quot; alt=&quot;2016-07-02_10:57:40.jpg&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;转载&lt;/strong&gt;:&lt;a href=&quot;&quot;&gt;http://tieba.baidu.com/p/3257838822&lt;/a&gt;&lt;br&gt;&lt;strong&gt;作者&lt;/strong&gt;:蜜色橙汁&lt;/p&gt;
+&lt;p&gt;软件源还是   &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http:/
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
+    
+      <category term="Technology" scheme="http://yoursite.com/categories/Blog/Technology/"/>
+    
+    
+      <category term="－NAS -群晖" scheme="http://yoursite.com/tags/%EF%BC%8DNAS-%E7%BE%A4%E6%99%96/"/>
+    
+  </entry>
   
   <entry>
     <title>JSPatch 部署安全策略</title>
     <link href="http://yoursite.com//blog/2016/06/JSPatch%20%E9%83%A8%E7%BD%B2%E5%AE%89%E5%85%A8%E7%AD%96%E7%95%A5.html"/>
     <id>http://yoursite.com//blog/2016/06/JSPatch 部署安全策略.html</id>
     <published>2016-06-24T04:22:55.000Z</published>
-    <updated>2016-06-24T04:37:50.000Z</updated>
+    <updated>2016-07-02T02:59:29.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;转载&lt;/strong&gt;:&lt;a href=&quot;&quot;&gt;http://blog.cnbang.net/tech/2879/&lt;/a&gt;&lt;br&gt;&lt;strong&gt;作者&lt;/strong&gt;:bang590&lt;/p&gt;
 &lt;p&gt;使用 &lt;a href=&quot;https://github.com/bang590/JSPatch&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JSPatch&lt;/a&gt; 有两个安全问题：&lt;/p&gt;
@@ -58,6 +116,10 @@
 &lt;p&gt;使用 &lt;a href=&quot;https://github.com
     
     </summary>
+    
+      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
+    
+      <category term="Technology" scheme="http://yoursite.com/categories/Blog/Technology/"/>
     
     
       <category term="iOS" scheme="http://yoursite.com/tags/iOS/"/>
